@@ -1,5 +1,3 @@
 creds = {
-    "vqfx": {"username": "admin", "password": "Juniper"},
-    "vios": {"username": "cisco", "password": "cisco"},
-    "veos": {"username": "admin", "password": "arista"},
+    "LAB-ASR903-PE-01": {"username": "step", "password": "steplab123"}
 }
