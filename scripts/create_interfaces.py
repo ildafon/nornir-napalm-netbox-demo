@@ -34,7 +34,7 @@ def create_netbox_interface(task, nb_interfaces, netbox):
             )
 
 
-devices = nr.filter(role="switch")
+devices = nr.filter(role="pe")
 
 result = devices.run(
     name="Create Netbox Interfaces",
