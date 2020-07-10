@@ -29,8 +29,8 @@ def create_netbox_interface(task, nb_interfaces, netbox):
             device_id = get_device_id(f"{task.host}", netbox)
             netbox.dcim.create_interface(
                name=f"{interface_name}",
-               interface_type="TYPE_1GE_SFP",
-               form_factor=1200,  # default
+
+               #form_factor=1200,  # default
                device_id=device_id,
             )
 
