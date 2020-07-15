@@ -55,4 +55,4 @@ if __name__ == "__main__":
         pprint(nr.inventory.get_inventory_dict())
     elif args["netbox"]:
         # to be used with python -i
-        netbox = NetBox(host=nb_host, port=32768, use_ssl=False, auth_token=nb_token)
+        netbox = NetBox(host=nb_host, port=32768, use_ssl=True, auth_token=nb_token)

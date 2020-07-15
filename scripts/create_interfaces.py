@@ -32,6 +32,7 @@ def create_netbox_interface(task, nb_interfaces, netbox):
 
                #form_factor=1200,  # default
                device_id=device_id,
+               #form_factor=1200,  # default
             )
 
 
