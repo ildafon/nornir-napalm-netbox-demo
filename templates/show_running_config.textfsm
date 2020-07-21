@@ -1,0 +1,16 @@
+Value IF_NAME (\S+)
+Value DESCRIP (.*)
+Value VRF (\S*)
+Value IP_ADDRESS (\S+)
+Value IP_MASK (\S+)
+Value POLICER_IN (\S*)
+Value POLICER_OUT (\S*)
+
+
+Start
+ ^interface "${IF_NAME}"
+ ^\s+description "${DESCRIP}"
+ ^\s+ip vrf forwarding "${VRF}"
+ ^\s+ip address "${IP_ADDRESS}" "${IP_MASK}"
+ ^\s+service-policy input "${POLICER_IN}"
+ ^\s+service-policy output "${POLICER_OUT}" --> Record

@@ -1,0 +1,4731 @@
+!RANCID-CONTENT-TYPE: cisco
+!
+!Chassis type: CISCO7606
+!CPU: R7000, R7000 CPU at 300MHz, impl 39, Rev 3.3, 256KB L2, 1024KB L3 Cache
+!
+!Memory: main 458752K/65536K
+!Memory: nvram 1915K
+!Memory: bootflash 65536K
+!
+!Catalyst Chassis type: CISCO7606, Cisco 7600 6-slot backplane
+!Catalyst Chassis S/N: FOX10440788
+!Catalyst Chassis assembly: 73-7054-03, rev C0, ver 1.0
+!Processor ID: FOX10440788
+!
+!Image: Software: c7600s3223_rp-ADVIPSERVICESK9-M, 12.2(33)SRE9, RELEASE SOFTWARE (fc2)
+!Image: Compiled: Fri 06-Sep-13 03:18 by prod_rel_team
+!Image: bootdisk:c7600s3223-advipservicesk9-mz.122-33.SRE9.bin
+!
+!ROM Bootstrap: Version 12.2(17r)SX3, RELEASE SOFTWARE (fc1)
+!BOOTLDR: Version 12.2(33)SRE9, RELEASE SOFTWARE (fc2)
+!
+!Variable: BOOT variable = sup-bootdisk:c7600s3223-advipservicesk9-mz.122-33.SRE9.bin,1;
+!Variable: CONFIG_FILE variable = 
+!Variable: BOOTLDR variable = 
+!Variable: Configuration register is 0x2102
+!
+!Variable: BOOT variable = sup-bootdisk:c7600s3223-advipservicesk9-mz.122-33.SRE9.bin,1;
+!Variable: CONFIG_FILE variable = 
+!Variable: BOOTLDR variable = 
+!Variable: Configuration register is 0x2102
+!
+!Flash: nvram: Directory of nvram:/
+!Flash: nvram:  1916  -rw-       96048                    <no date>  startup-config
+!Flash: nvram:  1917  ----        3173                    <no date>  private-config
+!Flash: nvram:  1918  -rw-       96048                    <no date>  underlying-config
+!Flash: nvram:     1  ----           0                    <no date>  rf_cold_starts
+!Flash: nvram:     2  ----         118                    <no date>  persistent-data
+!Flash: nvram:     3  -rw-           0                    <no date>  ifIndex-table
+!Flash: nvram: 1961976 bytes total (1 MB free)
+!
+!Flash: bootflash: Directory of bootflash:/
+!Flash: bootflash:     1  -rw-       73728  Jul 24 2009 13:25:03 +03:00  crashinfo_20090724-142503-MSD
+!Flash: bootflash: 65536000 bytes total (62 MB free)
+!
+!Flash: sup-bootdisk: Directory of sup-bootdisk:/
+!Flash: sup-bootdisk:     1  -rw-   102992444  Oct 10 2013 14:01:30 +03:00  c7600s3223-advipservicesk9-mz.122-33.SRE9.bin
+!Flash: sup-bootdisk:     2  -rw-    41594880  Oct 10 2013 14:30:28 +03:00  c7600-fpd-pkg.122-33.SRE9.pkg
+!Flash: sup-bootdisk:     3  -rw-    26843548  Oct 11 2013 00:46:56 +03:00  sea_log.dat
+!Flash: sup-bootdisk:     4  -rw-     4370848  Aug 26 2019 11:11:34 +03:00  sys.bin
+!Flash: sup-bootdisk: 256024576 bytes total (76 MB free)
+!
+!Flash: sup-microcode: Directory of sup-microcode:/
+!Flash: sup-microcode:     0  dr--   <no size>                    <no date>  
+!Flash: sup-microcode:     1  -r--     8772602                    <no date>  CWPA2_version_10.10
+!Flash: sup-microcode:     2  -r--    16882506                    <no date>  SIP1_version_10.10
+!Flash: sup-microcode:     3  -r--    19475054                    <no date>  SIP2_version_10.10
+!Flash: sup-microcode:     4  -r--     6775554                    <no date>  SMSC_version_10.10
+!Flash: sup-microcode:     5  -r--    33970834                    <no date>  DRACO2_MP
+!Flash: sup-microcode:     6  -r--      333460                    <no date>  LCP_LX10100
+!Flash: sup-microcode:     7  -r--      303404                    <no date>  LCP_LX1000
+!Flash: sup-microcode:     8  -r--      325544                    <no date>  LCP_AX1000
+!Flash: sup-microcode:     9  -r--      376572                    <no date>  LCP_AX10100
+!Flash: sup-microcode:    10  -r--      750526                    <no date>  LCP_CPGBIT
+!Flash: sup-microcode:    11  -r--      483886                    <no date>  LCP_CP10G
+!Flash: sup-microcode:    12  -r--      809070                    <no date>  LCP_CPMBIT2
+!Flash: sup-microcode:    13  -r--      915646                    <no date>  LCP_CPMBIT
+!Flash: sup-microcode:    14  -r--     1156942                    <no date>  LCP_CPXBIT
+!Flash: sup-microcode:    15  -r--       65318                    <no date>  LCP_ABOOT
+!Flash: sup-microcode:    16  -r--       60490                    <no date>  LCP_BOOT
+!Flash: sup-microcode:    17  -r--     1228834                    <no date>  CWPA2_FPD_version_10.10
+!Flash: sup-microcode: 92686242 bytes total (0 bytes free)
+!
+!
+!Slot 3: type 4-subslot SPA Interface Processor-400, 0 ports
+!Slot 3: part 7600-SIP-400, serial JAE1126MWZV
+!Slot 3: hvers 2.5, firmware 12.2(33)SRE9, sw 12.2(33)SRE9
+!
+!Slot 4: type 4-subslot SPA Interface Processor-400, 0 ports
+!Slot 4: part 7600-SIP-400, serial JAE1210AJS3
+!Slot 4: hvers 2.5, firmware 12.2(33)SRE9, sw 12.2(33)SRE9
+!
+!Slot 5: type Supervisor Engine 32 8GE (Active), 9 ports
+!Slot 5: part WS-SUP32-GE-3B, serial SAL10489JDY
+!Slot 5: hvers 4.5, firmware 12.2(18r)SX2, sw 12.2(33)SRE9
+!
+!Slot 5/0: type  Policy Feature Card 3      
+!Slot 5/0: part WS-F6K-PFC3B, serial SAL10499QAR
+!Slot 5/0: hvers 2.3
+!
+!Slot 5/1: type  Cat6k MSFC 2A daughterboard
+!Slot 5/1: part WS-F6K-MSFC2A, serial SAL10489DYD
+!Slot 5/1: hvers 3.1
+!
+!NAME: "CISCO7606",             DESCR: "Cisco Systems Cisco 7600 6-slot Chassis System"
+!PID: CISCO7606
+!SN: FOX10440788
+!NAME: "Backplane",             DESCR: "Cisco Systems Cisco 7600 6-slot backplane"
+!NAME: "Container of VTT 0",    DESCR: "Container of VTT"
+!NAME: "Container of Clock 1",  DESCR: "Container of Clock"
+!NAME: "CLK-7600 1",            DESCR: "OSR-7600 Clock FRU 1"
+!PID: CLK-7600
+!SN: NWG104300AT
+!NAME: "Clock 1 OK Sensor",     DESCR: "OSR-7600 Clock FRU 1 OK Sensor"
+!NAME: "Clock 1 In Using Sensor", DESCR: "OSR-7600 Clock FRU 1 In Using Sensor"
+!NAME: "Container of Clock 2",  DESCR: "Container of Clock"
+!NAME: "CLK-7600 2",            DESCR: "OSR-7600 Clock FRU 2"
+!PID: CLK-7600
+!SN: NWG104300AT
+!NAME: "Clock 2 OK Sensor",     DESCR: "OSR-7600 Clock FRU 2 OK Sensor"
+!NAME: "Clock 2 In Using Sensor", DESCR: "OSR-7600 Clock FRU 2 In Using Sensor"
+!NAME: "Sensor for counting number of OK Clocks", DESCR: "Sensor for counting number of OK Clocks"
+!NAME: "fan-tray 1 fan-fail Sensor", DESCR: "fan-tray 1 fan-fail Sensor"
+!NAME: "Physical Slot 1",       DESCR: "Cisco Systems Cisco 7600 6-slot Physical Slot"
+!NAME: "Physical Slot 2",       DESCR: "Cisco Systems Cisco 7600 6-slot Physical Slot"
+!NAME: "Physical Slot 3",       DESCR: "Cisco Systems Cisco 7600 6-slot Physical Slot"
+!NAME: "module 3",              DESCR: "Cisco 7600 Series SPA Interface Processor-400 Rev. 2.5"
+!PID: 7600-SIP-400
+!VID: V06
+!SN: JAE1126MWZV
+!NAME: "slot 3/0",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "SPA subslot 3/0",       DESCR: "2-port Gigabit Ethernet Shared Port Adapter"
+!PID: SPA-2X1GE
+!VID: V01
+!SN: JAB104704D8
+!NAME: "subslot 3/0 transceiver container 0", DESCR: "subslot 3/0 transceiver container 0"
+!NAME: "subslot 3/0 transceiver 0", DESCR: "GE LX"
+!VID: A
+!SN: FNS1031C38K
+!NAME: "GigabitEthernet3/0/0",  DESCR: "GigEther SPA"
+!NAME: "subslot 3/0 transceiver container 1", DESCR: "subslot 3/0 transceiver container 1"
+!NAME: "subslot 3/0 transceiver 1", DESCR: "GE LX"
+!VID: A
+!SN: FNS1030C50G
+!NAME: "GigabitEthernet3/0/1",  DESCR: "GigEther SPA"
+!NAME: "subslot 3/0 temperature Sensor 0", DESCR: "subslot 3/0 temperature Sensor 0"
+!NAME: "subslot 3/0 temperature Sensor 1", DESCR: "subslot 3/0 temperature Sensor 1"
+!NAME: "subslot 3/0 voltage Sensor 0", DESCR: "subslot 3/0 voltage Sensor 0"
+!NAME: "subslot 3/0 voltage Sensor 1", DESCR: "subslot 3/0 voltage Sensor 1"
+!NAME: "subslot 3/0 voltage Sensor 2", DESCR: "subslot 3/0 voltage Sensor 2"
+!NAME: "subslot 3/0 voltage Sensor 3", DESCR: "subslot 3/0 voltage Sensor 3"
+!NAME: "slot 3/1",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "SPA subslot 3/1",       DESCR: "2-port Gigabit Ethernet Shared Port Adapter"
+!PID: SPA-2X1GE
+!VID: V01
+!SN: JAB104704CG
+!NAME: "subslot 3/1 transceiver container 0", DESCR: "subslot 3/1 transceiver container 0"
+!NAME: "subslot 3/1 transceiver 0", DESCR: "GE LX"
+!VID: 0000
+!SN: FNS11430181
+!NAME: "GigabitEthernet3/1/0",  DESCR: "GigEther SPA"
+!NAME: "subslot 3/1 transceiver container 1", DESCR: "subslot 3/1 transceiver container 1"
+!NAME: "subslot 3/1 transceiver 1", DESCR: "Unknown pluggable optics"
+!NAME: "GigabitEthernet3/1/1",  DESCR: "GigEther SPA"
+!NAME: "subslot 3/1 temperature Sensor 0", DESCR: "subslot 3/1 temperature Sensor 0"
+!NAME: "subslot 3/1 temperature Sensor 1", DESCR: "subslot 3/1 temperature Sensor 1"
+!NAME: "subslot 3/1 voltage Sensor 0", DESCR: "subslot 3/1 voltage Sensor 0"
+!NAME: "subslot 3/1 voltage Sensor 1", DESCR: "subslot 3/1 voltage Sensor 1"
+!NAME: "subslot 3/1 voltage Sensor 2", DESCR: "subslot 3/1 voltage Sensor 2"
+!NAME: "subslot 3/1 voltage Sensor 3", DESCR: "subslot 3/1 voltage Sensor 3"
+!NAME: "slot 3/2",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "slot 3/3",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "power output-fail 3 ",  DESCR: "module 3 power-output-fail Sensor"
+!NAME: "switch insufficient-cooling 3 ", DESCR: "module 3 insufficient cooling Sensor"
+!NAME: "temperature outlet 3 ", DESCR: "module 3 outlet temperature Sensor"
+!NAME: "temperature inlet 3 ",  DESCR: "module 3 inlet temperature Sensor"
+!NAME: "temperature device-1 3 ", DESCR: "module 3 device-1 temperature Sensor"
+!NAME: "temperature device-2 3 ", DESCR: "module 3 device-2 temperature Sensor"
+!NAME: "cpu 3/0",               DESCR: "CPU 0 of 7600-SIP-400"
+!NAME: "Physical Slot 4",       DESCR: "Cisco Systems Cisco 7600 6-slot Physical Slot"
+!NAME: "module 4",              DESCR: "Cisco 7600 Series SPA Interface Processor-400 Rev. 2.5"
+!PID: 7600-SIP-400
+!VID: V06
+!SN: JAE1210AJS3
+!NAME: "slot 4/0",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "SPA subslot 4/0",       DESCR: "2-port Gigabit Ethernet Shared Port Adapter"
+!PID: SPA-2X1GE
+!VID: V01
+!SN: JAB104502RJ
+!NAME: "subslot 4/0 transceiver container 0", DESCR: "subslot 4/0 transceiver container 0"
+!NAME: "subslot 4/0 transceiver 0", DESCR: "GE LX"
+!PID: SFP-GE-L
+!VID: A
+!SN: FNS113409EX
+!NAME: "subslot 4/0 transceiver 0 Temperature Sensor", DESCR: "subslot 4/0 transceiver 0 Temperature Sensor"
+!NAME: "subslot 4/0 transceiver 0 Supply Voltage Sensor", DESCR: "subslot 4/0 transceiver 0 Supply Voltage Sensor"
+!NAME: "subslot 4/0 transceiver 0 Bias Current Sensor", DESCR: "subslot 4/0 transceiver 0 Bias Current Sensor"
+!NAME: "subslot 4/0 transceiver 0 Tx Power Sensor", DESCR: "subslot 4/0 transceiver 0 Tx Power Sensor"
+!NAME: "subslot 4/0 transceiver 0 Rx Power Sensor", DESCR: "subslot 4/0 transceiver 0 Rx Power Sensor"
+!NAME: "GigabitEthernet4/0/0",  DESCR: "GigEther SPA"
+!NAME: "subslot 4/0 transceiver container 1", DESCR: "subslot 4/0 transceiver container 1"
+!NAME: "subslot 4/0 transceiver 1", DESCR: "GE LX"
+!PID: SFP-GE-L
+!VID: A
+!SN: FNS122401AW
+!NAME: "subslot 4/0 transceiver 1 Temperature Sensor", DESCR: "subslot 4/0 transceiver 1 Temperature Sensor"
+!NAME: "subslot 4/0 transceiver 1 Supply Voltage Sensor", DESCR: "subslot 4/0 transceiver 1 Supply Voltage Sensor"
+!NAME: "subslot 4/0 transceiver 1 Bias Current Sensor", DESCR: "subslot 4/0 transceiver 1 Bias Current Sensor"
+!NAME: "subslot 4/0 transceiver 1 Tx Power Sensor", DESCR: "subslot 4/0 transceiver 1 Tx Power Sensor"
+!NAME: "subslot 4/0 transceiver 1 Rx Power Sensor", DESCR: "subslot 4/0 transceiver 1 Rx Power Sensor"
+!NAME: "GigabitEthernet4/0/1",  DESCR: "GigEther SPA"
+!NAME: "subslot 4/0 temperature Sensor 0", DESCR: "subslot 4/0 temperature Sensor 0"
+!NAME: "subslot 4/0 temperature Sensor 1", DESCR: "subslot 4/0 temperature Sensor 1"
+!NAME: "subslot 4/0 voltage Sensor 0", DESCR: "subslot 4/0 voltage Sensor 0"
+!NAME: "subslot 4/0 voltage Sensor 1", DESCR: "subslot 4/0 voltage Sensor 1"
+!NAME: "subslot 4/0 voltage Sensor 2", DESCR: "subslot 4/0 voltage Sensor 2"
+!NAME: "subslot 4/0 voltage Sensor 3", DESCR: "subslot 4/0 voltage Sensor 3"
+!NAME: "slot 4/1",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "slot 4/2",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "slot 4/3",              DESCR: "Shared Port Adapter Card Container"
+!NAME: "power output-fail 4 ",  DESCR: "module 4 power-output-fail Sensor"
+!NAME: "switch insufficient-cooling 4 ", DESCR: "module 4 insufficient cooling Sensor"
+!NAME: "temperature outlet 4 ", DESCR: "module 4 outlet temperature Sensor"
+!NAME: "temperature inlet 4 ",  DESCR: "module 4 inlet temperature Sensor"
+!NAME: "temperature device-1 4 ", DESCR: "module 4 device-1 temperature Sensor"
+!NAME: "temperature device-2 4 ", DESCR: "module 4 device-2 temperature Sensor"
+!NAME: "cpu 4/0",               DESCR: "CPU 0 of 7600-SIP-400"
+!NAME: "Physical Slot 5",       DESCR: "Cisco Systems Cisco 7600 6-slot Physical Slot"
+!NAME: "module 5",              DESCR: "WS-SUP32-GE-3B 9 ports Supervisor Engine 32 8GE Rev. 4.5"
+!PID: WS-SUP32-GE-3B
+!VID: V05
+!SN: SAL10489JDY
+!NAME: "MSFC Container 5",      DESCR: "MSFC Container"
+!NAME: "msfc sub-module of 5",  DESCR: "WS-F6K-MSFC2A Cat6k MSFC 2A daughterboard Rev. 3.1"
+!PID: WS-F6K-MSFC2A
+!SN: SAL10489DYD
+!NAME: "module 5 RP outlet temperature Sensor", DESCR: "module 5 RP outlet temperature Sensor"
+!NAME: "module 5 RP inlet temperature Sensor", DESCR: "module 5 RP inlet temperature Sensor"
+!NAME: "CPU of Routing Processor 5", DESCR: "CPU of Routing Processor"
+!NAME: "Switching Engine Container 5", DESCR: "Switching Engine Container"
+!NAME: "switching engine sub-module of 5", DESCR: "WS-F6K-PFC3B Policy Feature Card 3 Rev. 2.3"
+!PID: WS-F6K-PFC3B
+!VID: V01
+!SN: SAL10499QAR
+!NAME: "module 5 EARL outlet temperature Sensor", DESCR: "module 5 EARL outlet temperature Sensor"
+!NAME: "module 5 EARL inlet temperature Sensor", DESCR: "module 5 EARL inlet temperature Sensor"
+!NAME: "power output-fail 5 ",  DESCR: "Supervisor module 5 power-output-fail Sensor"
+!NAME: "switch insufficient-cooling 5 ", DESCR: "Supervisor module 5 insufficient cooling Sensor"
+!NAME: "switch fanUpgrade-required 5 ", DESCR: "Supervisor module 5 fan-upgrade required Sensor"
+!NAME: "temperature outlet 5 ", DESCR: "Supervisor module 5 outlet temperature Sensor"
+!NAME: "temperature inlet 5 ",  DESCR: "Supervisor module 5 inlet temperature Sensor"
+!NAME: "temperature device-1 5 ", DESCR: "Supervisor module 5 device-1 temperature Sensor"
+!NAME: "temperature device-2 5 ", DESCR: "Supervisor module 5 device-2 temperature Sensor"
+!NAME: "temperature aux-1 5",   DESCR: "Supervisor module 5 aux-1 temperature Sensor"
+!NAME: "module 5 asic 1 temperature Sensor", DESCR: "Supervisor module 5 asic 1 temperature Sensor"
+!NAME: "CPU of Switching Processor 5", DESCR: "CPU of Switching Processor"
+!NAME: "Gi5/1",                 DESCR: "Transceiver Port Gi5/1"
+!NAME: "Transceiver Port Container Gi5/1", DESCR: "Transceiver Port Container Gi5/1"
+!NAME: "Transceiver Gi5/1",     DESCR: "Transceiver 1000BaseT Gi5/1"
+!VID: 4
+!SN: FNS1035R4WT
+!NAME: "Gi5/9",                 DESCR: "10/100/1000BaseT Gi5/9"
+!NAME: "Gi5/2",                 DESCR: "Transceiver Port Gi5/2"
+!NAME: "Transceiver Port Container Gi5/2", DESCR: "Transceiver Port Container Gi5/2"
+!NAME: "Transceiver Gi5/2",     DESCR: "Transceiver 1000BaseT Gi5/2"
+!VID: 4
+!SN: FNS104400DA
+!NAME: "Gi5/3",                 DESCR: "Transceiver Port Gi5/3"
+!NAME: "Transceiver Port Container Gi5/3", DESCR: "Transceiver Port Container Gi5/3"
+!NAME: "Transceiver Gi5/3",     DESCR: "Transceiver 1000BaseT Gi5/3"
+!VID: 4
+!SN: FNS1036J03L
+!NAME: "Gi5/4",                 DESCR: "Transceiver Port Gi5/4"
+!NAME: "Transceiver Port Container Gi5/4", DESCR: "Transceiver Port Container Gi5/4"
+!NAME: "Gi5/5",                 DESCR: "Transceiver Port Gi5/5"
+!NAME: "Transceiver Port Container Gi5/5", DESCR: "Transceiver Port Container Gi5/5"
+!NAME: "Transceiver Gi5/5",     DESCR: "Transceiver 1000BaseT Gi5/5"
+!SN: AGS1041L1RN
+!NAME: "Gi5/6",                 DESCR: "Transceiver Port Gi5/6"
+!NAME: "Transceiver Port Container Gi5/6", DESCR: "Transceiver Port Container Gi5/6"
+!NAME: "Transceiver Gi5/6",     DESCR: "Transceiver 1000BaseT Gi5/6"
+!SN: AGS1039L1BT
+!NAME: "Gi5/7",                 DESCR: "Transceiver Port Gi5/7"
+!NAME: "Transceiver Port Container Gi5/7", DESCR: "Transceiver Port Container Gi5/7"
+!NAME: "Transceiver Gi5/7",     DESCR: "Transceiver 1000BaseT Gi5/7"
+!SN: AGS1041L1FL
+!NAME: "Gi5/8",                 DESCR: "Transceiver Port Gi5/8"
+!NAME: "Transceiver Port Container Gi5/8", DESCR: "Transceiver Port Container Gi5/8"
+!NAME: "Transceiver Gi5/8",     DESCR: "Transceiver 1000BaseT Gi5/8"
+!VID: 4
+!SN: FNS1032C306
+!NAME: "Physical Slot 6",       DESCR: "Cisco Systems Cisco 7600 6-slot Physical Slot"
+!NAME: "Container of Fan FRU 1", DESCR: "Container of Fan FRU"
+!NAME: "fan-tray 1",            DESCR: "Chassis fan-tray 1"
+!NAME: "Container of Container of Power Supply", DESCR: "Container of Container of Power Supply"
+!NAME: "Container of Power Supply 1", DESCR: "Container of Power Supply"
+!NAME: "PS 1 PWR-2700-DC",      DESCR: "DC power supply, 2700 watt 1"
+!PID: PWR-2700-DC
+!VID: V02
+!SN: APQ1038012S
+!NAME: "power-supply 1 fan-fail Sensor", DESCR: "power-supply 1 fan-fail Sensor"
+!NAME: "power-supply 1 power-output-fail Sensor", DESCR: "power-supply 1 power-output-fail Sensor"
+!NAME: "power-supply 1 incompatible with fan Sensor", DESCR: "power-supply 1 incompatible with fan Sensor"
+!NAME: "power-supply 1 power-input Sensor", DESCR: "power-supply 1 power-input Sensor"
+!NAME: "Container of Power Supply 2", DESCR: "Container of Power Supply"
+!
+!VTP: VTP Version capable             : 1 to 3
+!VTP: VTP version running             : 1
+!VTP: VTP Domain Name                 : 
+!VTP: VTP Pruning Mode                : Disabled
+!VTP: VTP Traps Generation            : Disabled
+!VTP: Device ID                       : 0018.742f.aec0
+!VTP: Feature VLAN:
+!VTP: --------------
+!VTP: VTP Operating Mode                : Transparent
+!VTP: Maximum VLANs supported locally   : 1005
+!VTP: Number of existing VLANs          : 141
+!VTP: Configuration Revision            : 0
+!VTP: MD5 digest                        : 0x06 0x8E 0xFE 0xC5 0xB4 0x2B 0x06 0x5C 
+!VTP:                                     0xA3 0x40 0xF6 0xD5 0xDE 0xD3 0x5A 0x12 
+!
+!VLAN: VLAN Name                             Status    Ports
+!VLAN: ---- -------------------------------- --------- -------------------------------
+!VLAN: 1    default                          active    
+!VLAN: 2    VLAN0002                         active    
+!VLAN: 3    VLAN0003                         active    
+!VLAN: 9    VLAN0009                         active    
+!VLAN: 10   TATENERGO_CHELNY_10              active    
+!VLAN: 11   TATENERGO_CHELNY_11              active    
+!VLAN: 12   TATSPIRTPROM_12                  active    
+!VLAN: 13   POCHTA                           active    
+!VLAN: 14   ROSSELHOZBANK                    active    
+!VLAN: 15   AKBARS-MED_15                    active    
+!VLAN: 17   Reso-Garantiya                   active    
+!VLAN: 21   VLAN0021                         active    
+!VLAN: 22   Marbil                           active    
+!VLAN: 24   RUES                             active    
+!VLAN: 25   KRAZAR                           active    
+!VLAN: 30   CKC                              active    
+!VLAN: 31   NALOG-TBT                        active    
+!VLAN: 32   VLAN0032                         active    
+!VLAN: 33   Tulachi_inform_Me3               active    
+!VLAN: 34   VLAN0034                         active    
+!VLAN: 36   ispolkom[7-238]                  active    
+!VLAN: 38   ISPOLKOM[7-247]                  active    
+!VLAN: 39   -=ROSNEDVIG=-                    active    
+!VLAN: 41   ROS_GOS_41                       active    
+!VLAN: 51   HP_IUM                           active    
+!VLAN: 60   TATAVTODOR_857                   active    
+!VLAN: 66   PKD_66                           active    
+!VLAN: 67   SB-RT-1_67                       active    
+!VLAN: 69   vneved_ohr_rosgvard              active    
+!VLAN: 70   ROSREESTR_Sovetskaya,40          active    
+!VLAN: 75   CCTV_OPiO                        active    
+!VLAN: 81   -=GTS-MGKH=-                     active    
+!VLAN: 82   fed_kaz_82                       active    
+!VLAN: 83   [7-801]_Uzjakskoe_selskoe_posele active    
+!VLAN: 84   Zastava                          active    
+!VLAN: 85   SB-RT-1_85                       active    
+!VLAN: 87   SB-RT-1_87                       active    
+!VLAN: 90   VLAN0090                         active    
+!VLAN: 104  Guest_FTTH                       active    
+!VLAN: 105  SET-ILE_Molodeznaya,12           active    
+!VLAN: 107  SBERBANK_LEN                     active    
+!VLAN: 108  RSH_34                           active    
+!VLAN: 109  RSH_69                           active    
+!VLAN: 110  GIBDD_Xusni,6                    active    
+!VLAN: 111  VLAN0111                         active    
+!VLAN: 130  ipcom                            active    
+!VLAN: 131  TATARINFORM                      active    
+!VLAN: 132  ABB                              active    
+!VLAN: 135  izbirkom                         active    
+!VLAN: 142  FSS                              active    
+!VLAN: 156  TELEGRAF_156                     active    
+!VLAN: 180  VAMIN_Bolshaya_Nagornaya,1       active    
+!VLAN: 181  VAMIN_Bolshaya_Nagornaya,1_2     active    
+!VLAN: 213  UCH                              active    
+!VLAN: 255  UFSIN                            active    
+!VLAN: 275  MVD_Bolshie_Nirsy_Shkolnaya,9    active    
+!VLAN: 279  MCHS_GU                          active    
+!VLAN: 309  SB-RT-1_309                      active    
+!VLAN: 310  SB-RT-1_                         active    
+!VLAN: 313  gazprom                          active    
+!VLAN: 315  KOMP-CLASS                       active    
+!VLAN: 317  UIK-162704                       active    
+!VLAN: 318  UIK-162705                       active    
+!VLAN: 320  UIK-162707                       active    
+!VLAN: 321  UIK-162708                       active    
+!VLAN: 322  UIK-162709                       active    
+!VLAN: 323  UIK-162710                       active    
+!VLAN: 324  UIK-162711                       active    
+!VLAN: 325  UIK-162712                       active    
+!VLAN: 326  UIK-162713                       active    
+!VLAN: 327  UIK-162714                       active    
+!VLAN: 328  UIK-162715                       active    
+!VLAN: 329  UIK-162716                       active    
+!VLAN: 330  UIK-162717                       active    
+!VLAN: 331  UIK-162718                       active    
+!VLAN: 332  UIK-162719                       active    
+!VLAN: 333  UIK-162720                       active    
+!VLAN: 334  UIK-162721                       active    
+!VLAN: 335  UIK-162722                       active    
+!VLAN: 336  UIK-162723                       active    
+!VLAN: 337  UIK-162724                       active    
+!VLAN: 338  UIK-162725                       active    
+!VLAN: 339  UIK-162726                       active    
+!VLAN: 340  UIK-162727                       active    
+!VLAN: 341  UIK-162728                       active    
+!VLAN: 342  UIK-162729                       active    
+!VLAN: 343  UIK-162730                       active    
+!VLAN: 344  UIK-162731                       active    
+!VLAN: 372  sip_shluz_home                   active    
+!VLAN: 373  sip_shluz_home_2                 active    
+!VLAN: 378  Ingosstrah                       active    
+!VLAN: 379  veterinariya                     active    
+!VLAN: 380  POCHTA_Lenina,56                 active    
+!VLAN: 400  Bassejn_Olimpijskaya_7           active    
+!VLAN: 450  SZO_OGV_OMSU_Alan                active    
+!VLAN: 451  SZO_OGV_OMSU_Bolshaya_Mesha      active    
+!VLAN: 452  SZO_FAP_Balandysh                active    
+!VLAN: 453  SZO_FAP_Verxniy_Meteski          active    
+!VLAN: 454  SZO_FAP_Lesnoy                   active    
+!VLAN: 455  SZO_OGV_OMSU_Starye_Zuri         active    
+!VLAN: 456  SZO_FAP_Malye_Kibya_Kozi         active    
+!VLAN: 457  SZO_FAP_Starye_Zuri              active    
+!VLAN: 458  SZO_OGV_OMSU_Malye_Kibya_Kozi    active    
+!VLAN: 459  SZO_FAP_Bolshie_Meteski          active    
+!VLAN: 460  SZO_FAP_Maksabash                active    
+!VLAN: 461  SZO_FAP_Bolshie_Nursy            active    
+!VLAN: 462  SZO_FAP_Bolshaya_Mesha           active    
+!VLAN: 463  SZO_FAP_Alan                     active    
+!VLAN: 464  SZO_Rosgvardiya_Tyly             active    
+!VLAN: 507  VLAN0507                         active    
+!VLAN: 580  MCX_BASHRTCOMM                   active    
+!VLAN: 581  FEDKAZ_BASHRTCOMM                active    
+!VLAN: 582  mvd                              active    
+!VLAN: 583  MEHT-TB                          active    
+!VLAN: 584  Admin_kam_vremenno               active    
+!VLAN: 586  SUD_KP2400                       active    
+!VLAN: 591  Narodniy_Control                 active    
+!VLAN: 606  VLAN0606                         active    
+!VLAN: 610  WEB_UIK,Bolgar                   active    
+!VLAN: 630  ERC_TATENERGOSBYT_Tukaya,2b      active    
+!VLAN: 721  Video_kamery_TOPGAZ              active    
+!VLAN: 743  444-v-MVD                        active    
+!VLAN: 744  CCTV-444-SERVER                  active    
+!VLAN: 745  CCTV-444-CAMERA                  active    
+!VLAN: 800  Multicat_vill                    active    
+!VLAN: 801  IPTV_vill                        active    
+!VLAN: 850  VLAN0850                         active    
+!VLAN: 851  GIST_VOLS                        active    
+!VLAN: 852  VLAN0852                         active    
+!VLAN: 853  VLAN0853                         active    
+!VLAN: 854  VLAN0854                         active    
+!VLAN: 888  RUES_MANAGER_DSL                 active    
+!VLAN: 900  MANAGER_DSLAM                    active    
+!VLAN: 901  Monitoring_Zelax                 active    
+!VLAN: 905  Wifi-Street-Wifi-street          active    
+!VLAN: 909  SABANTYI                         active    
+!VLAN: 975  WAP                              active    
+!VLAN: 1002 fddi-default                     act/unsup 
+!VLAN: 1003 token-ring-default               act/unsup 
+!VLAN: 1004 fddinet-default                  act/unsup 
+!VLAN: 1005 trnet-default                    act/unsup 
+!VLAN: 1101 FTTH_1101                        active    
+!VLAN: 1150 VATS_OAO_NASKO                   active    
+!VLAN: 1151 VATS_TOPGAZ                      active    
+!VLAN: 1200 mvr_XGS-4728                     active    
+!VLAN: 1201 IPTV                             active    
+!VLAN: 1202 IPTV_5k-1                        active    
+!VLAN: 1206 IPTV_5k-2                        active    
+!VLAN: 1215 test_multic                      active    
+!VLAN: 1220 IPTV_                            active    
+!VLAN: 1227 multic_test_TET                  active    
+!VLAN: 1235 mvr_5k_10.3.202.44               active    
+!VLAN: 1236 IPTV_5k_10.3.202.44              active    
+!VLAN: 1237 IPTV-SHADKI-5k                   active    
+!VLAN: 1238 iptv_IPTV_B.Nyrsi                active    
+!VLAN: 1301 TR69_TLC-RUES-5000-1             active    
+!VLAN: 1302 TR69_TLC-RUES-5000-2             active    
+!VLAN: 1303 TR69_TLC-Vinos-5005-1            active    
+!VLAN: 1304 TR69_TLC-Aidarovo                active    
+!VLAN: 1305 TR69_TLC-Karashirma              active    
+!VLAN: 1306 TR69_TLC-Abdi                    active    
+!VLAN: 1401 SIP_TLC-RUES-5000-1              active    
+!VLAN: 1402 SIP_TLC-RUES-5000-2              active    
+!VLAN: 1403 SIP_TLC-Vinos-5005-1             active    
+!VLAN: 1404 SIP_TLC-Aidarovo                 active    
+!VLAN: 1405 SIP_TLC-Karashirma               active    
+!VLAN: 1406 SIP_TLC-Abdi                     active    
+!VLAN: 1501 Guest_TLC-RUES-5000-1            active    
+!VLAN: 1502 Guest_TLC-RUES-5000-2            active    
+!VLAN: 1503 Guest_TLC-Vinos-5005-1           active    
+!VLAN: 1504 Guest_TLC-Aidarovo               active    
+!VLAN: 1505 Guest_TLC-Karashirma             active    
+!VLAN: 1506 Guest_TLC-Abdi                   active    
+!VLAN: 1600 CENSOR_MGMT                      active    
+!VLAN: 2001 LTE_LTE                          active    
+!VLAN: 2105 GIST_MCHS_112                    active    
+!VLAN: 2113 EGE_2015                         active    
+!VLAN: 3001 LTE_OAM                          active    
+!VLAN: 3002 tcu_oam                          active    
+!VLAN: 3004 lte_energomera_monitoring        active    
+!VLAN: 3300 GIST_MGMT_ADMINISTRACIYA         active    
+!VLAN: 3301 GIST_ADMINISTRACIYA_LVS          active    
+!VLAN: 3302 GIST_ADMINISTRACIYA_VKS          active    
+!VLAN: 3303 GIST_TODK_Lenina,80a             active    
+!VLAN: 3304 GIST_SOC_ZASHITA_Bolshaya,Nagorn active    
+!VLAN: 3305 GIST_SIK                         active    
+!VLAN: 3306 GIST_CRB_STOMATOLOGIYA           active    
+!VLAN: 3307 GIST_CRB_Lenina,35               active    
+!VLAN: 3308 GIST_ROVD_Tatarstan,21           active    
+!VLAN: 3309 GIST_MFC_F.Xusni,6               active    
+!VLAN: 3310 GIST_MCHS_Nagornaya,3            active    
+!VLAN: 3311 GIST_Tyulyachinskaya_SOSH        active    
+!VLAN: 3312 GIST_BOLSHIE_NYRSY               active    
+!VLAN: 3313 GIST_POLIKLINIKA_Lenina,35       active    
+!VLAN: 3314 GIST_BUBJETNAYA_PALATA           active    
+!VLAN: 3315 GIST_XOZ_KONTORA_B.Nagornaya,42  active    
+!VLAN: 3316 GIST_SUD_UCH_Sovetskaya40        active    
+!VLAN: 3317 DUSSH_UNNOST                     active    
+!VLAN: 3318 GIST_Centr_Bugh                  active    
+!VLAN: 3319 GIST_SOSH_B_Mesha                active    
+!VLAN: 3320 GIST_SOSH_2401                   active    
+!VLAN: 3321 GIST_BURO_TEH_INVENT             active    
+!VLAN: 3400 ROSTELECOM_UCN_Aidarovo          active    
+!VLAN: 3401 ROSTELECOM_UCN_Bolshie_Nirsy     active    
+!VLAN: 3402 ROSTELECOM_UCN_Balandysh         active    
+!VLAN: 3403 ROSTELECOM_UCN_Balykly           active    
+!VLAN: 3404 ROSTELECOM_UCN_Bolshaya_Mesha    active    
+!VLAN: 3405 ROSTELECOM_UCN_Bolshie_Kibya_Koz active    
+!VLAN: 3406 ROSTELECOM_UCN_Berxnie_Kibya_Koz active    
+!VLAN: 3407 ROSTELECOM_UCN_Komarovka         active    
+!VLAN: 3408 ROSTELECOM_UCN_Maksabash         active    
+!VLAN: 3409 ROSTELECOM_UCN_Suash             active    
+!VLAN: 3410 ROSTELECOM_UCN_Starye_Zuri       active    
+!VLAN: 3411 ROSTELECOM_UCN_Sharmashi         active    
+!VLAN: 3501 -=PWR_MGMT=-                     active    
+!VLAN: 4000 -=PTP_INET_LINK=-                active    
+!VLAN: 4003 -=Nortel_OAM_PtP_LINK1=-         active    
+!VLAN: 4004 -=Nortel_NGN_PtP_LINK1=-         active    
+!VLAN: 4006 -=Nortel_OAM_PtP_LINK2=-         active    
+!VLAN: 4007 -=Nortel_NGN_PtP_LINK2=-         active    
+!VLAN: 4028 SYSTEM_112_OAM                   active    
+!VLAN: 4029 SYSTEM_112_RTP                   active    
+!VLAN: 4087 -=NORTEL_VOIP_NGN=-              active    
+!VLAN: 4089 -=NORTEL_VOIP_OAM=-              active    
+!VLAN: VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+!VLAN: ---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+!VLAN: 1    enet  100001     1500  -      -      -        -    -        0      0   
+!VLAN: 2    enet  100002     1500  -      -      -        -    -        0      0   
+!VLAN: 3    enet  100003     1500  -      -      -        -    -        0      0   
+!VLAN: 9    enet  100009     1500  -      -      -        -    -        0      0   
+!VLAN: 10   enet  100010     1500  -      -      -        -    -        0      0   
+!VLAN: 11   enet  100011     1500  -      -      -        -    -        0      0   
+!VLAN: 12   enet  100012     1500  -      -      -        -    -        0      0   
+!VLAN: 13   enet  100013     1500  -      -      -        -    -        0      0   
+!VLAN: 14   enet  100014     1500  -      -      -        -    -        0      0   
+!VLAN: 15   enet  100015     1500  -      -      -        -    -        0      0   
+!VLAN: 17   enet  100017     1500  -      -      -        -    -        0      0   
+!VLAN: 21   enet  100021     1500  -      -      -        -    -        0      0   
+!VLAN: 22   enet  100022     1500  -      -      -        -    -        0      0   
+!VLAN: 24   enet  100024     1500  -      -      -        -    -        0      0   
+!VLAN: 25   enet  100025     1500  -      -      -        -    -        0      0   
+!VLAN: 30   enet  100030     1500  -      -      -        -    -        0      0   
+!VLAN: 31   enet  100031     1500  -      -      -        -    -        0      0   
+!VLAN: 32   enet  100032     1500  -      -      -        -    -        0      0   
+!VLAN: 33   enet  100033     1500  -      -      -        -    -        0      0   
+!VLAN: 34   enet  100034     1500  -      -      -        -    -        0      0   
+!VLAN: 36   enet  100036     1500  -      -      -        -    -        0      0   
+!VLAN: 38   enet  100038     1500  -      -      -        -    -        0      0   
+!VLAN: 39   enet  100039     1500  -      -      -        -    -        0      0   
+!VLAN: 41   enet  100041     1500  -      -      -        -    -        0      0   
+!VLAN: 51   enet  100051     1500  -      -      -        -    -        0      0   
+!VLAN: 60   enet  100060     1500  -      -      -        -    -        0      0   
+!VLAN: 66   enet  100066     1500  -      -      -        -    -        0      0   
+!VLAN: 67   enet  100067     1500  -      -      -        -    -        0      0   
+!VLAN: 69   enet  100069     1500  -      -      -        -    -        0      0   
+!VLAN: 70   enet  100070     1500  -      -      -        -    -        0      0   
+!VLAN: 75   enet  100075     1500  -      -      -        -    -        0      0   
+!VLAN: 81   enet  100081     1500  -      -      -        -    -        0      0   
+!VLAN: 82   enet  100082     1500  -      -      -        -    -        0      0   
+!VLAN: 83   enet  100083     1500  -      -      -        -    -        0      0   
+!VLAN: 84   enet  100084     1500  -      -      -        -    -        0      0   
+!VLAN: 85   enet  100085     1500  -      -      -        -    -        0      0   
+!VLAN: 87   enet  100087     1500  -      -      -        -    -        0      0   
+!VLAN: 90   enet  100090     1500  -      -      -        -    -        0      0   
+!VLAN: 104  enet  100104     1500  -      -      -        -    -        0      0   
+!VLAN: 105  enet  100105     1500  -      -      -        -    -        0      0   
+!VLAN: 107  enet  100107     1500  -      -      -        -    -        0      0   
+!VLAN: 108  enet  100108     1500  -      -      -        -    -        0      0   
+!VLAN: 109  enet  100109     1500  -      -      -        -    -        0      0   
+!VLAN: 110  enet  100110     1500  -      -      -        -    -        0      0   
+!VLAN: 111  enet  100111     1500  -      -      -        -    -        0      0   
+!VLAN: 130  enet  100130     1500  -      -      -        -    -        0      0   
+!VLAN: 131  enet  100131     1500  -      -      -        -    -        0      0   
+!VLAN: 132  enet  100132     1500  -      -      -        -    -        0      0   
+!VLAN: 135  enet  100135     1500  -      -      -        -    -        0      0   
+!VLAN: 142  enet  100142     1500  -      -      -        -    -        0      0   
+!VLAN: 156  enet  100156     1500  -      -      -        -    -        0      0   
+!VLAN: 180  enet  100180     1500  -      -      -        -    -        0      0   
+!VLAN: 181  enet  100181     1500  -      -      -        -    -        0      0   
+!VLAN: 213  enet  100213     1500  -      -      -        -    -        0      0   
+!VLAN: 255  enet  100255     1500  -      -      -        -    -        0      0   
+!VLAN: 275  enet  100275     1500  -      -      -        -    -        0      0   
+!VLAN: 279  enet  100279     1500  -      -      -        -    -        0      0   
+!VLAN: 309  enet  100309     1500  -      -      -        -    -        0      0   
+!VLAN: 310  enet  100310     1500  -      -      -        -    -        0      0   
+!VLAN: 313  enet  100313     1500  -      -      -        -    -        0      0   
+!VLAN: 315  enet  100315     1500  -      -      -        -    -        0      0   
+!VLAN: 317  enet  100317     1500  -      -      -        -    -        0      0   
+!VLAN: 318  enet  100318     1500  -      -      -        -    -        0      0   
+!VLAN: 320  enet  100320     1500  -      -      -        -    -        0      0   
+!VLAN: 321  enet  100321     1500  -      -      -        -    -        0      0   
+!VLAN: 322  enet  100322     1500  -      -      -        -    -        0      0   
+!VLAN: 323  enet  100323     1500  -      -      -        -    -        0      0   
+!VLAN: 324  enet  100324     1500  -      -      -        -    -        0      0   
+!VLAN: 325  enet  100325     1500  -      -      -        -    -        0      0   
+!VLAN: 326  enet  100326     1500  -      -      -        -    -        0      0   
+!VLAN: 327  enet  100327     1500  -      -      -        -    -        0      0   
+!VLAN: 328  enet  100328     1500  -      -      -        -    -        0      0   
+!VLAN: 329  enet  100329     1500  -      -      -        -    -        0      0   
+!VLAN: 330  enet  100330     1500  -      -      -        -    -        0      0   
+!VLAN: 331  enet  100331     1500  -      -      -        -    -        0      0   
+!VLAN: 332  enet  100332     1500  -      -      -        -    -        0      0   
+!VLAN: 333  enet  100333     1500  -      -      -        -    -        0      0   
+!VLAN: 334  enet  100334     1500  -      -      -        -    -        0      0   
+!VLAN: 335  enet  100335     1500  -      -      -        -    -        0      0   
+!VLAN: 336  enet  100336     1500  -      -      -        -    -        0      0   
+!VLAN: 337  enet  100337     1500  -      -      -        -    -        0      0   
+!VLAN: 338  enet  100338     1500  -      -      -        -    -        0      0   
+!VLAN: 339  enet  100339     1500  -      -      -        -    -        0      0   
+!VLAN: 340  enet  100340     1500  -      -      -        -    -        0      0   
+!VLAN: 341  enet  100341     1500  -      -      -        -    -        0      0   
+!VLAN: 342  enet  100342     1500  -      -      -        -    -        0      0   
+!VLAN: 343  enet  100343     1500  -      -      -        -    -        0      0   
+!VLAN: 344  enet  100344     1500  -      -      -        -    -        0      0   
+!VLAN: 372  enet  100372     1500  -      -      -        -    -        0      0   
+!VLAN: 373  enet  100373     1500  -      -      -        -    -        0      0   
+!VLAN: 378  enet  100378     1500  -      -      -        -    -        0      0   
+!VLAN: 379  enet  100379     1500  -      -      -        -    -        0      0   
+!VLAN: 380  enet  100380     1500  -      -      -        -    -        0      0   
+!VLAN: 400  enet  100400     1500  -      -      -        -    -        0      0   
+!VLAN: 450  enet  100450     1500  -      -      -        -    -        0      0   
+!VLAN: 451  enet  100451     1500  -      -      -        -    -        0      0   
+!VLAN: 452  enet  100452     1500  -      -      -        -    -        0      0   
+!VLAN: 453  enet  100453     1500  -      -      -        -    -        0      0   
+!VLAN: 454  enet  100454     1500  -      -      -        -    -        0      0   
+!VLAN: 455  enet  100455     1500  -      -      -        -    -        0      0   
+!VLAN: 456  enet  100456     1500  -      -      -        -    -        0      0   
+!VLAN: 457  enet  100457     1500  -      -      -        -    -        0      0   
+!VLAN: 458  enet  100458     1500  -      -      -        -    -        0      0   
+!VLAN: 459  enet  100459     1500  -      -      -        -    -        0      0   
+!VLAN: 460  enet  100460     1500  -      -      -        -    -        0      0   
+!VLAN: 461  enet  100461     1500  -      -      -        -    -        0      0   
+!VLAN: 462  enet  100462     1500  -      -      -        -    -        0      0   
+!VLAN: 463  enet  100463     1500  -      -      -        -    -        0      0   
+!VLAN: 464  enet  100464     1500  -      -      -        -    -        0      0   
+!VLAN: 507  enet  100507     1500  -      -      -        -    -        0      0   
+!VLAN: 580  enet  100580     1500  -      -      -        -    -        0      0   
+!VLAN: 581  enet  100581     1500  -      -      -        -    -        0      0   
+!VLAN: 582  enet  100582     1500  -      -      -        -    -        0      0   
+!VLAN: 583  enet  100583     1500  -      -      -        -    -        0      0   
+!VLAN: 584  enet  100584     1500  -      -      -        -    -        0      0   
+!VLAN: 586  enet  100586     1500  -      -      -        -    -        0      0   
+!VLAN: 591  enet  100591     1500  -      -      -        -    -        0      0   
+!VLAN: 606  enet  100606     1500  -      -      -        -    -        0      0   
+!VLAN: 610  enet  100610     1500  -      -      -        -    -        0      0   
+!VLAN: 630  enet  100630     1500  -      -      -        -    -        0      0   
+!VLAN: 721  enet  100721     1500  -      -      -        -    -        0      0   
+!VLAN: 743  enet  100743     1500  -      -      -        -    -        0      0   
+!VLAN: 744  enet  100744     1500  -      -      -        -    -        0      0   
+!VLAN: 745  enet  100745     1500  -      -      -        -    -        0      0   
+!VLAN: 800  enet  100800     1500  -      -      -        -    -        0      0   
+!VLAN: 801  enet  100801     1500  -      -      -        -    -        0      0   
+!VLAN: 850  enet  100850     1500  -      -      -        -    -        0      0   
+!VLAN: 851  enet  100851     1500  -      -      -        -    -        0      0   
+!VLAN: 852  enet  100852     1500  -      -      -        -    -        0      0   
+!VLAN: 853  enet  100853     1500  -      -      -        -    -        0      0   
+!VLAN: 854  enet  100854     1500  -      -      -        -    -        0      0   
+!VLAN: 888  enet  100888     1500  -      -      -        -    -        0      0   
+!VLAN: 900  enet  100900     1500  -      -      -        -    -        0      0   
+!VLAN: 901  enet  100901     1500  -      -      -        -    -        0      0   
+!VLAN: 905  enet  100905     1500  -      -      -        -    -        0      0   
+!VLAN: 909  enet  100909     1500  -      -      -        -    -        0      0   
+!VLAN: 975  enet  100975     1500  -      -      -        -    -        0      0   
+!VLAN: 1002 fddi  101002     1500  -      -      -        -    -        0      0   
+!VLAN: 1003 tr    101003     1500  -      -      -        -    -        0      0   
+!VLAN: 1004 fdnet 101004     1500  -      -      -        ieee -        0      0   
+!VLAN: 1005 trnet 101005     1500  -      -      -        ibm  -        0      0   
+!VLAN: 1101 enet  101101     1500  -      -      -        -    -        0      0   
+!VLAN: 1150 enet  101150     1500  -      -      -        -    -        0      0   
+!VLAN: 1151 enet  101151     1500  -      -      -        -    -        0      0   
+!VLAN: 1200 enet  101200     1500  -      -      -        -    -        0      0   
+!VLAN: 1201 enet  101201     1500  -      -      -        -    -        0      0   
+!VLAN: 1202 enet  101202     1500  -      -      -        -    -        0      0   
+!VLAN: 1206 enet  101206     1500  -      -      -        -    -        0      0   
+!VLAN: 1215 enet  101215     1500  -      -      -        -    -        0      0   
+!VLAN: 1220 enet  101220     1500  -      -      -        -    -        0      0   
+!VLAN: 1227 enet  101227     1500  -      -      -        -    -        0      0   
+!VLAN: 1235 enet  101235     1500  -      -      -        -    -        0      0   
+!VLAN: 1236 enet  101236     1500  -      -      -        -    -        0      0   
+!VLAN: 1237 enet  101237     1500  -      -      -        -    -        0      0   
+!VLAN: 1238 enet  101238     1500  -      -      -        -    -        0      0   
+!VLAN: 1301 enet  101301     1500  -      -      -        -    -        0      0   
+!VLAN: 1302 enet  101302     1500  -      -      -        -    -        0      0   
+!VLAN: 1303 enet  101303     1500  -      -      -        -    -        0      0   
+!VLAN: 1304 enet  101304     1500  -      -      -        -    -        0      0   
+!VLAN: 1305 enet  101305     1500  -      -      -        -    -        0      0   
+!VLAN: 1306 enet  101306     1500  -      -      -        -    -        0      0   
+!VLAN: 1401 enet  101401     1500  -      -      -        -    -        0      0   
+!VLAN: 1402 enet  101402     1500  -      -      -        -    -        0      0   
+!VLAN: 1403 enet  101403     1500  -      -      -        -    -        0      0   
+!VLAN: 1404 enet  101404     1500  -      -      -        -    -        0      0   
+!VLAN: 1405 enet  101405     1500  -      -      -        -    -        0      0   
+!VLAN: 1406 enet  101406     1500  -      -      -        -    -        0      0   
+!VLAN: 1501 enet  101501     1500  -      -      -        -    -        0      0   
+!VLAN: 1502 enet  101502     1500  -      -      -        -    -        0      0   
+!VLAN: 1503 enet  101503     1500  -      -      -        -    -        0      0   
+!VLAN: 1504 enet  101504     1500  -      -      -        -    -        0      0   
+!VLAN: 1505 enet  101505     1500  -      -      -        -    -        0      0   
+!VLAN: 1506 enet  101506     1500  -      -      -        -    -        0      0   
+!VLAN: 1600 enet  101600     1500  -      -      -        -    -        0      0   
+!VLAN: 2001 enet  102001     1500  -      -      -        -    -        0      0   
+!VLAN: 2105 enet  102105     1500  -      -      -        -    -        0      0   
+!VLAN: 2113 enet  102113     1500  -      -      -        -    -        0      0   
+!VLAN: 3001 enet  103001     1500  -      -      -        -    -        0      0   
+!VLAN: 3002 enet  103002     1500  -      -      -        -    -        0      0   
+!VLAN: 3004 enet  103004     1500  -      -      -        -    -        0      0   
+!VLAN: 3300 enet  103300     1500  -      -      -        -    -        0      0   
+!VLAN: 3301 enet  103301     1500  -      -      -        -    -        0      0   
+!VLAN: 3302 enet  103302     1500  -      -      -        -    -        0      0   
+!VLAN: 3303 enet  103303     1500  -      -      -        -    -        0      0   
+!VLAN: 3304 enet  103304     1500  -      -      -        -    -        0      0   
+!VLAN: 3305 enet  103305     1500  -      -      -        -    -        0      0   
+!VLAN: 3306 enet  103306     1500  -      -      -        -    -        0      0   
+!VLAN: 3307 enet  103307     1500  -      -      -        -    -        0      0   
+!VLAN: 3308 enet  103308     1500  -      -      -        -    -        0      0   
+!VLAN: 3309 enet  103309     1500  -      -      -        -    -        0      0   
+!VLAN: 3310 enet  103310     1500  -      -      -        -    -        0      0   
+!VLAN: 3311 enet  103311     1500  -      -      -        -    -        0      0   
+!VLAN: 3312 enet  103312     1500  -      -      -        -    -        0      0   
+!VLAN: 3313 enet  103313     1500  -      -      -        -    -        0      0   
+!VLAN: 3314 enet  103314     1500  -      -      -        -    -        0      0   
+!VLAN: 3315 enet  103315     1500  -      -      -        -    -        0      0   
+!VLAN: 3316 enet  103316     1500  -      -      -        -    -        0      0   
+!VLAN: 3317 enet  103317     1500  -      -      -        -    -        0      0   
+!VLAN: 3318 enet  103318     1500  -      -      -        -    -        0      0   
+!VLAN: 3319 enet  103319     1500  -      -      -        -    -        0      0   
+!VLAN: 3320 enet  103320     1500  -      -      -        -    -        0      0   
+!VLAN: 3321 enet  103321     1500  -      -      -        -    -        0      0   
+!VLAN: 3400 enet  103400     1500  -      -      -        -    -        0      0   
+!VLAN: 3401 enet  103401     1500  -      -      -        -    -        0      0   
+!VLAN: 3402 enet  103402     1500  -      -      -        -    -        0      0   
+!VLAN: 3403 enet  103403     1500  -      -      -        -    -        0      0   
+!VLAN: 3404 enet  103404     1500  -      -      -        -    -        0      0   
+!VLAN: 3405 enet  103405     1500  -      -      -        -    -        0      0   
+!VLAN: 3406 enet  103406     1500  -      -      -        -    -        0      0   
+!VLAN: 3407 enet  103407     1500  -      -      -        -    -        0      0   
+!VLAN: 3408 enet  103408     1500  -      -      -        -    -        0      0   
+!VLAN: 3409 enet  103409     1500  -      -      -        -    -        0      0   
+!VLAN: 3410 enet  103410     1500  -      -      -        -    -        0      0   
+!VLAN: 3411 enet  103411     1500  -      -      -        -    -        0      0   
+!VLAN: 3501 enet  103501     1500  -      -      -        -    -        0      0   
+!VLAN: 4000 enet  104000     1500  -      -      -        -    -        0      0   
+!VLAN: 4003 enet  104003     1500  -      -      -        -    -        0      0   
+!VLAN: 4004 enet  104004     1500  -      -      -        -    -        0      0   
+!VLAN: 4006 enet  104006     1500  -      -      -        -    -        0      0   
+!VLAN: 4007 enet  104007     1500  -      -      -        -    -        0      0   
+!VLAN: 4028 enet  104028     1500  -      -      -        -    -        0      0   
+!VLAN: 4029 enet  104029     1500  -      -      -        -    -        0      0   
+!VLAN: 4087 enet  104087     1500  -      -      -        -    -        0      0   
+!VLAN: 4089 enet  104089     1500  -      -      -        -    -        0      0   
+!VLAN: Remote SPAN VLANs
+!VLAN: ------------------------------------------------------------------------------
+!VLAN: Primary Secondary Type              Ports
+!VLAN: ------- --------- ----------------- ------------------------------------------
+!
+!
+config-register 0x2102
+!
+version 12.2
+no service pad
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec localtime show-timezone
+service password-encryption
+service counters max age 10
+service unsupported-transceiver
+!
+hostname TLC-RUES-PE3-01
+!
+boot-start-marker
+boot system flash sup-bootdisk:c7600s3223-advipservicesk9-mz.122-33.SRE9.bin
+boot-end-marker
+!
+logging buffered 32768 notifications
+enable secret 5 $1$kCid$Vs26kWWTQ.fkwjY6hH0SC1
+!
+spd extended-headroom 1000
+spd headroom 1500
+aaa new-model
+!
+aaa group server tacacs+ TAT
+ server-private 10.10.10.2 port 4949 key 7 075B781817
+ ip vrf forwarding MGMT
+ ip tacacs source-interface Loopback2
+!
+aaa group server tacacs+ k322
+ server-private 10.16.253.34 port 4321 key 7 10441C0A11431E040B17
+ ip vrf forwarding MGMT
+ ip tacacs source-interface Loopback254
+!
+aaa authentication login default group TAT local
+aaa authentication enable default enable group TAT
+aaa authorization exec default group TAT local 
+aaa accounting commands 0 default
+ action-type start-stop
+ broadcast
+ group k322
+!
+aaa accounting commands 1 default
+ action-type start-stop
+ broadcast
+ group k322
+!
+aaa accounting commands 15 default
+ action-type start-stop
+ broadcast
+ group TAT
+ group k322
+!
+aaa accounting network default
+ action-type start-stop
+ group TAT
+!
+aaa session-id common
+!
+process cpu threshold type total rising 70 interval 60 falling 40 interval 60
+clock timezone MSK 3
+logging event link-status default
+no ip source-route
+no ip gratuitous-arps
+ip spd queue max-threshold 1999
+ip spd queue min-threshold 1998
+ip vrf AKBARS-MED
+ rd 28840:909
+ route-target export 28840:909
+ route-target import 28840:909
+!
+ip vrf CCTV_AXXON
+ rd 65000:1314
+ route-target export 65000:1314
+ route-target import 65000:1314
+!
+ip vrf CENSOR
+ rd 65000:1600
+ route-target export 65000:1600
+ route-target import 65000:1600
+!
+ip vrf CITY
+ rd 65000:150
+ route-target export 65000:150
+ route-target import 65000:150
+!
+ip vrf EGE_2015
+ rd 28840:480
+ route-target export 28840:480
+ route-target import 28840:480
+!
+ip vrf FEDKAZ_BASHRTCOMM
+ rd 28840:1161
+ route-target export 28840:1161
+ route-target import 28840:1161
+!
+ip vrf FTTH
+ description -=FTTHUsers=-
+ rd 65000:306
+ export map FTTH_STB_TO_IPTV
+ route-target export 65000:306
+ route-target import 65000:306
+!
+ip vrf GIBDD
+ rd 65000:350
+ route-target export 65000:350
+ route-target import 65000:350
+!
+ip vrf GTS-MGKH
+ rd 28840:506
+ route-target export 28840:506
+ route-target import 28840:506
+!
+ip vrf HP_IUM
+ rd 65000:510
+ route-target export 65000:510
+ route-target import 65000:510
+!
+ip vrf INET
+ rd 65000:500
+ route-target export 65000:500
+ route-target import 65000:500
+!
+ip vrf IPTV
+ rd 65000:90
+ route-target export 65000:90
+ route-target import 65000:90
+!
+ip vrf KSPD
+ description KSPD
+ rd 65000:57
+ route-target export 65000:57
+ route-target import 65000:57
+!
+ip vrf LTE_LTE
+ description LTE_LTE
+ rd 65000:803
+ route-target export 65000:803
+ route-target import 65000:803
+!
+ip vrf LTE_OAM
+ description LTE_OAM
+ rd 65000:804
+ route-target export 65000:804
+ route-target import 65000:804
+!
+ip vrf MCHS_GU
+ rd 65000:676
+ route-target export 65000:676
+ route-target import 65000:676
+!
+ip vrf MCX_BASHRTCOMM
+ description Upravlenye_Celskogo_Xozyaistva[142/09]
+ rd 28840:1165
+ route-target export 28840:1165
+ route-target export 41938:1165
+ route-target import 28840:1165
+ route-target import 41938:1165
+!
+ip vrf MEHT-TB
+ rd 28840:891
+ route-target export 28840:891
+ route-target import 28840:891
+!
+ip vrf MGMT
+ rd 65000:10
+ route-target export 65000:10
+ route-target import 65000:10
+!
+ip vrf MGMT_Firewall
+ description -=MGMT_Firewall=-
+ rd 65000:66
+ route-target export 65000:66
+ route-target import 65000:66
+!
+ip vrf MONITOR_TLS
+ rd 28840:511
+ route-target export 28840:511
+ route-target import 28840:511
+!
+ip vrf NALOG-TBT
+ rd 28840:600
+ route-target export 28840:600
+ route-target export 29194:7
+ route-target import 28840:600
+ route-target import 29194:7
+!
+ip vrf NARINSPEKT-MVD
+ rd 65000:911
+ route-target export 65000:911
+ route-target import 65000:911
+!
+ip vrf NORTEL_NGN
+ description Nortel_NGN_Signal+RTP
+ rd 65000:622
+ route-target export 65000:622
+ route-target import 65000:622
+!
+ip vrf NORTEL_OAM
+ description Nortel_OAM_NGN
+ rd 65000:602
+ route-target export 65000:602
+ route-target import 65000:602
+!
+ip vrf PFR
+ rd 28840:5
+ route-target export 28840:5
+ route-target export 65445:8
+ route-target import 28840:5
+ route-target import 65445:8
+!
+ip vrf PKD
+ rd 28840:11
+ route-target export 28840:11
+ route-target import 28840:11
+!
+ip vrf POCHTA
+ description POCHTA ROSSII
+ rd 28840:161
+ route-target export 28840:161
+ route-target import 28840:161
+!
+ip vrf PWR_MGMT
+ rd 65000:99
+ route-target export 65000:99
+ route-target import 65000:99
+ route-target import 65000:9
+!
+ip vrf ROSNEDVIG
+ rd 28840:12
+ route-target export 28840:12
+ route-target export 8342:105290
+ route-target import 28840:12
+ route-target import 8342:105290
+!
+ip vrf ROS_GOS
+ rd 28840:7
+ route-target export 28840:7
+ route-target import 28840:7
+!
+ip vrf RTK-UCN-MGMT
+ rd 28840:1017
+ route-target export 28840:1017
+ route-target import 28840:1017
+!
+ip vrf Rosselhoz
+ rd 28840:533
+ route-target export 28840:533
+ route-target import 28840:533
+!
+ip vrf SB-RT-1
+ rd 28840:101
+ route-target export 28840:101
+ route-target import 28840:101
+!
+ip vrf SB-RT-2
+ rd 65000:126
+ route-target export 65000:126
+ route-target import 65000:126
+!
+ip vrf SBERBANK
+ rd 65000:420
+ route-target export 65000:420
+ route-target import 65000:420
+!
+ip vrf SIP_ADSL
+ rd 65000:637
+ route-target export 65000:637
+ route-target import 65000:637
+!
+ip vrf SUD_TLC
+ rd 28840:1244
+ route-target export 28840:1244
+ route-target import 28840:1244
+!
+ip vrf SYSTEM_112_OAM
+ rd 28840:2001
+ route-target export 28840:2001
+ route-target import 28840:2001
+!
+ip vrf SYSTEM_112_RTP
+ rd 28840:2000
+ route-target export 28840:2000
+ route-target import 28840:2000
+!
+ip vrf SZO
+ rd 28840:555
+ route-target export 28840:555
+ route-target import 28840:555
+!
+ip vrf TATARINFORM
+ rd 28840:143
+ route-target export 28840:143
+ route-target import 28840:143
+!
+ip vrf TATENERGO_CHELNY
+ rd 28840:9
+ route-target export 28840:9
+ route-target import 28840:9
+!
+ip vrf TATENERGO_EES
+ rd 28840:1107
+ route-target export 28840:1107
+ route-target import 28840:1107
+!
+ip vrf TATENERGO_EOESB
+ rd 28840:1108
+ route-target export 28840:1108
+ route-target import 28840:1108
+!
+ip vrf TATMVDCAMERA
+ rd 28840:893
+ route-target export 28840:893
+ route-target import 28840:893
+!
+ip vrf TATSPIRTPROM
+ rd 28840:112
+ route-target export 28840:112
+ route-target import 28840:112
+!
+ip vrf TATTRANSGAZ
+ rd 28840:113
+ route-target export 28840:113
+ route-target import 28840:113
+!
+ip vrf TELEGRAF
+ rd 28840:613
+ route-target export 28840:613
+ route-target import 28840:613
+!
+ip vrf TR69
+ rd 65000:69
+ route-target export 65000:69
+ route-target import 65000:69
+!
+ip vrf UFSIN
+ rd 28840:164
+ route-target export 28840:164
+ route-target import 28840:164
+!
+ip vrf VAMIN
+ rd 65000:155
+ route-target export 65000:155
+ route-target import 65000:155
+!
+ip vrf WAP
+ rd 65000:100
+ route-target export 65000:100
+ route-target import 65000:100
+!
+ip vrf WEB_UIK
+ rd 28840:146
+ route-target export 28840:146
+ route-target import 28840:146
+!
+ip vrf WUS
+ description -=Wi-Fi_Users=-
+ rd 65000:300
+ route-target export 65000:300
+ route-target import 65000:300
+!
+ip vrf Wifi-Street
+ rd 65000:690
+ route-target export 65000:690
+ route-target import 65000:690
+!
+ip vrf fed_kaz
+ rd 28840:604
+ route-target export 28840:604
+ route-target export 29194:10
+ route-target import 28840:604
+ route-target import 29194:10
+!
+ip vrf izbirkom
+ description centrizbirkom
+ rd 28840:156
+ route-target export 28840:156
+ route-target import 28840:156
+!
+ip vrf kspd_local
+ description kspd_local
+ rd 65000:82
+ route-target export 65000:82
+ route-target import 65000:82
+!
+ip vrf m_Zelax
+ rd 65000:901
+ route-target export 65000:901
+ route-target import 65000:901
+!
+ip vrf mvd
+ description mvd
+ rd 65000:582
+ route-target export 65000:582
+ route-target import 65000:582
+!
+no ip bootp server
+ip multicast-routing 
+ip multicast hardware-switching replication-mode ingress
+ip multicast multipath s-g-hash basic
+no ip domain lookup
+ip domain name tattelecom.ru
+ip dhcp relay information option vpn
+!
+ip dhcp pool WiFi_AP_Unlim
+   vrf MGMT
+   network 10.65.21.96 255.255.255.248
+   default-router 10.65.21.97 
+   option 43 hex f104.0a42.4202
+!
+no ipv6 mld snooping
+ipv6 multicast hardware-switching replication-mode ingress
+!
+vtp mode transparent
+!
+track 1 interface GigabitEthernet5/1 line-protocol
+no mpls ip propagate-ttl forwarded
+mpls ldp session protection
+mpls ldp discovery hello interval 1
+mpls ldp discovery targeted-hello interval 1
+mpls ldp discovery targeted-hello accept
+mpls traffic-eng tunnels
+mpls label protocol ldp
+no mls flow ip
+no mls flow ipv6
+mls qos
+no mls acl tcam share-global
+mls cef error action freeze
+multilink bundle-name authenticated
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+spanning-tree vlan 4050 priority 24576
+system flowcontrol bus auto
+diagnostic cns publish cisco.cns.device.diag_results
+diagnostic cns subscribe cisco.cns.device.diag_commands
+no errdisable detect cause gbic-invalid
+errdisable recovery cause udld
+errdisable recovery cause bpduguard
+errdisable recovery cause security-violation
+errdisable recovery cause channel-misconfig
+errdisable recovery cause pagp-flap
+errdisable recovery cause dtp-flap
+errdisable recovery cause link-flap
+errdisable recovery cause gbic-invalid
+errdisable recovery cause l2ptguard
+errdisable recovery cause psecure-violation
+errdisable recovery cause gbic-invalid
+errdisable recovery cause dhcp-rate-limit
+errdisable recovery cause mac-limit
+errdisable recovery cause unicast-flood
+errdisable recovery cause vmps
+errdisable recovery cause storm-control
+errdisable recovery cause arp-inspection
+errdisable recovery cause link-monitor-failure
+errdisable recovery cause oam-remote-failure
+errdisable recovery cause loopback
+errdisable recovery interval 60
+username local privilege 15 secret 5 $1$UT6z$d4LBISit5Q6iaZOf8/Ap41
+!
+redundancy
+ main-cpu
+  auto-sync running-config
+ mode sso
+!
+transceiver type all
+ monitoring
+ monitoring interval 300
+vlan internal allocation policy ascending
+vlan dot1q tag native 
+vlan access-log ratelimit 2000
+!
+vlan 2-3,9 
+!
+vlan 10
+ name TATENERGO_CHELNY_10
+!
+vlan 11
+ name TATENERGO_CHELNY_11
+!
+vlan 12
+ name TATSPIRTPROM_12
+!
+vlan 13
+ name POCHTA
+!
+vlan 14
+ name ROSSELHOZBANK
+!
+vlan 15
+ name AKBARS-MED_15
+!
+vlan 17
+ name Reso-Garantiya
+!
+vlan 21 
+!
+vlan 22
+ name Marbil
+!
+vlan 24
+ name RUES
+!
+vlan 25
+ name KRAZAR
+!
+vlan 30
+ name CKC
+!
+vlan 31
+ name NALOG-TBT
+!
+vlan 32 
+!
+vlan 33
+ name Tulachi_inform_Me3
+!
+vlan 34 
+!
+vlan 36
+ name ispolkom[7-238]
+!
+vlan 38
+ name ISPOLKOM[7-247]
+!
+vlan 39
+ name -=ROSNEDVIG=-
+!
+vlan 41
+ name ROS_GOS_41
+!
+vlan 51
+ name HP_IUM
+!
+vlan 60
+ name TATAVTODOR_857
+!
+vlan 66
+ name PKD_66
+!
+vlan 67
+ name SB-RT-1_67
+!
+vlan 69
+ name vneved_ohr_rosgvard
+!
+vlan 70
+ name ROSREESTR_Sovetskaya,40
+!
+vlan 75
+ name CCTV_OPiO
+!
+vlan 81
+ name -=GTS-MGKH=-
+!
+vlan 82
+ name fed_kaz_82
+!
+vlan 83
+ name [7-801]_Uzjakskoe_selskoe_posele
+!
+vlan 84
+ name Zastava
+!
+vlan 85
+ name SB-RT-1_85
+!
+vlan 87
+ name SB-RT-1_87
+!
+vlan 90 
+!
+vlan 104
+ name Guest_FTTH
+!
+vlan 105
+ name SET-ILE_Molodeznaya,12
+!
+vlan 107
+ name SBERBANK_LEN
+!
+vlan 108
+ name RSH_34
+!
+vlan 109
+ name RSH_69
+!
+vlan 110
+ name GIBDD_Xusni,6
+!
+vlan 111 
+!
+vlan 130
+ name ipcom
+!
+vlan 131
+ name TATARINFORM
+!
+vlan 132
+ name ABB
+!
+vlan 135
+ name izbirkom
+!
+vlan 142
+ name FSS
+!
+vlan 156
+ name TELEGRAF_156
+!
+vlan 180
+ name VAMIN_Bolshaya_Nagornaya,1
+!
+vlan 181
+ name VAMIN_Bolshaya_Nagornaya,1_2
+!
+vlan 213
+ name UCH
+!
+vlan 255
+ name UFSIN
+!
+vlan 275
+ name MVD_Bolshie_Nirsy_Shkolnaya,9
+!
+vlan 279
+ name MCHS_GU
+!
+vlan 309
+ name SB-RT-1_309
+!
+vlan 310
+ name SB-RT-1_
+!
+vlan 313
+ name gazprom
+!
+vlan 315
+ name KOMP-CLASS
+!
+vlan 317
+ name UIK-162704
+!
+vlan 318
+ name UIK-162705
+!
+vlan 320
+ name UIK-162707
+!
+vlan 321
+ name UIK-162708
+!
+vlan 322
+ name UIK-162709
+!
+vlan 323
+ name UIK-162710
+!
+vlan 324
+ name UIK-162711
+!
+vlan 325
+ name UIK-162712
+!
+vlan 326
+ name UIK-162713
+!
+vlan 327
+ name UIK-162714
+!
+vlan 328
+ name UIK-162715
+!
+vlan 329
+ name UIK-162716
+!
+vlan 330
+ name UIK-162717
+!
+vlan 331
+ name UIK-162718
+!
+vlan 332
+ name UIK-162719
+!
+vlan 333
+ name UIK-162720
+!
+vlan 334
+ name UIK-162721
+!
+vlan 335
+ name UIK-162722
+!
+vlan 336
+ name UIK-162723
+!
+vlan 337
+ name UIK-162724
+!
+vlan 338
+ name UIK-162725
+!
+vlan 339
+ name UIK-162726
+!
+vlan 340
+ name UIK-162727
+!
+vlan 341
+ name UIK-162728
+!
+vlan 342
+ name UIK-162729
+!
+vlan 343
+ name UIK-162730
+!
+vlan 344
+ name UIK-162731
+!
+vlan 372
+ name sip_shluz_home
+!
+vlan 373
+ name sip_shluz_home_2
+!
+vlan 378
+ name Ingosstrah
+!
+vlan 379
+ name veterinariya
+!
+vlan 380
+ name POCHTA_Lenina,56
+!
+vlan 400
+ name Bassejn_Olimpijskaya_7
+!
+vlan 450
+ name SZO_OGV_OMSU_Alan
+!
+vlan 451
+ name SZO_OGV_OMSU_Bolshaya_Mesha
+!
+vlan 452
+ name SZO_FAP_Balandysh
+!
+vlan 453
+ name SZO_FAP_Verxniy_Meteski
+!
+vlan 454
+ name SZO_FAP_Lesnoy
+!
+vlan 455
+ name SZO_OGV_OMSU_Starye_Zuri
+!
+vlan 456
+ name SZO_FAP_Malye_Kibya_Kozi
+!
+vlan 457
+ name SZO_FAP_Starye_Zuri
+!
+vlan 458
+ name SZO_OGV_OMSU_Malye_Kibya_Kozi
+!
+vlan 459
+ name SZO_FAP_Bolshie_Meteski
+!
+vlan 460
+ name SZO_FAP_Maksabash
+!
+vlan 461
+ name SZO_FAP_Bolshie_Nursy
+!
+vlan 462
+ name SZO_FAP_Bolshaya_Mesha
+!
+vlan 463
+ name SZO_FAP_Alan
+!
+vlan 464
+ name SZO_Rosgvardiya_Tyly
+!
+vlan 507 
+!
+vlan 580
+ name MCX_BASHRTCOMM
+!
+vlan 581
+ name FEDKAZ_BASHRTCOMM
+!
+vlan 582
+ name mvd
+!
+vlan 583
+ name MEHT-TB
+!
+vlan 584
+ name Admin_kam_vremenno
+!
+vlan 586
+ name SUD_KP2400
+!
+vlan 591
+ name Narodniy_Control
+!
+vlan 606 
+!
+vlan 610
+ name WEB_UIK,Bolgar
+!
+vlan 630
+ name ERC_TATENERGOSBYT_Tukaya,2b
+!
+vlan 721
+ name Video_kamery_TOPGAZ
+!
+vlan 743
+ name 444-v-MVD
+!
+vlan 744
+ name CCTV-444-SERVER
+!
+vlan 745
+ name CCTV-444-CAMERA
+!
+vlan 800
+ name Multicat_vill
+!
+vlan 801
+ name IPTV_vill
+!
+vlan 850 
+!
+vlan 851
+ name GIST_VOLS
+!
+vlan 852-854 
+!
+vlan 888
+ name RUES_MANAGER_DSL
+!
+vlan 900
+ name MANAGER_DSLAM
+!
+vlan 901
+ name Monitoring_Zelax
+!
+vlan 905
+ name Wifi-Street-Wifi-street
+!
+vlan 909
+ name SABANTYI
+!
+vlan 975
+ name WAP
+!
+vlan 1101
+ name FTTH_1101
+!
+vlan 1150
+ name VATS_OAO_NASKO
+!
+vlan 1151
+ name VATS_TOPGAZ
+!
+vlan 1200
+ name mvr_XGS-4728
+!
+vlan 1201
+ name IPTV
+!
+vlan 1202
+ name IPTV_5k-1
+!
+vlan 1206
+ name IPTV_5k-2
+!
+vlan 1215
+ name test_multic
+!
+vlan 1220
+ name IPTV_
+!
+vlan 1227
+ name multic_test_TET
+!
+vlan 1235
+ name mvr_5k_10.3.202.44
+!
+vlan 1236
+ name IPTV_5k_10.3.202.44
+!
+vlan 1237
+ name IPTV-SHADKI-5k
+!
+vlan 1238
+ name iptv_IPTV_B.Nyrsi
+!
+vlan 1301
+ name TR69_TLC-RUES-5000-1
+!
+vlan 1302
+ name TR69_TLC-RUES-5000-2
+!
+vlan 1303
+ name TR69_TLC-Vinos-5005-1
+!
+vlan 1304
+ name TR69_TLC-Aidarovo
+!
+vlan 1305
+ name TR69_TLC-Karashirma
+!
+vlan 1306
+ name TR69_TLC-Abdi
+!
+vlan 1401
+ name SIP_TLC-RUES-5000-1
+!
+vlan 1402
+ name SIP_TLC-RUES-5000-2
+!
+vlan 1403
+ name SIP_TLC-Vinos-5005-1
+!
+vlan 1404
+ name SIP_TLC-Aidarovo
+!
+vlan 1405
+ name SIP_TLC-Karashirma
+!
+vlan 1406
+ name SIP_TLC-Abdi
+!
+vlan 1501
+ name Guest_TLC-RUES-5000-1
+!
+vlan 1502
+ name Guest_TLC-RUES-5000-2
+!
+vlan 1503
+ name Guest_TLC-Vinos-5005-1
+!
+vlan 1504
+ name Guest_TLC-Aidarovo
+!
+vlan 1505
+ name Guest_TLC-Karashirma
+!
+vlan 1506
+ name Guest_TLC-Abdi
+!
+vlan 1600
+ name CENSOR_MGMT
+!
+vlan 2001
+ name LTE_LTE
+!
+vlan 2105
+ name GIST_MCHS_112
+!
+vlan 2113
+ name EGE_2015
+!
+vlan 3001
+ name LTE_OAM
+!
+vlan 3002
+ name tcu_oam
+!
+vlan 3004
+ name lte_energomera_monitoring
+!
+vlan 3300
+ name GIST_MGMT_ADMINISTRACIYA
+!
+vlan 3301
+ name GIST_ADMINISTRACIYA_LVS
+!
+vlan 3302
+ name GIST_ADMINISTRACIYA_VKS
+!
+vlan 3303
+ name GIST_TODK_Lenina,80a
+!
+vlan 3304
+ name GIST_SOC_ZASHITA_Bolshaya,Nagorn
+!
+vlan 3305
+ name GIST_SIK
+!
+vlan 3306
+ name GIST_CRB_STOMATOLOGIYA
+!
+vlan 3307
+ name GIST_CRB_Lenina,35
+!
+vlan 3308
+ name GIST_ROVD_Tatarstan,21
+!
+vlan 3309
+ name GIST_MFC_F.Xusni,6
+!
+vlan 3310
+ name GIST_MCHS_Nagornaya,3
+!
+vlan 3311
+ name GIST_Tyulyachinskaya_SOSH
+!
+vlan 3312
+ name GIST_BOLSHIE_NYRSY
+!
+vlan 3313
+ name GIST_POLIKLINIKA_Lenina,35
+!
+vlan 3314
+ name GIST_BUBJETNAYA_PALATA
+!
+vlan 3315
+ name GIST_XOZ_KONTORA_B.Nagornaya,42
+!
+vlan 3316
+ name GIST_SUD_UCH_Sovetskaya40
+!
+vlan 3317
+ name DUSSH_UNNOST
+!
+vlan 3318
+ name GIST_Centr_Bugh
+!
+vlan 3319
+ name GIST_SOSH_B_Mesha
+!
+vlan 3320
+ name GIST_SOSH_2401
+!
+vlan 3321
+ name GIST_BURO_TEH_INVENT
+!
+vlan 3400
+ name ROSTELECOM_UCN_Aidarovo
+!
+vlan 3401
+ name ROSTELECOM_UCN_Bolshie_Nirsy
+!
+vlan 3402
+ name ROSTELECOM_UCN_Balandysh
+!
+vlan 3403
+ name ROSTELECOM_UCN_Balykly
+!
+vlan 3404
+ name ROSTELECOM_UCN_Bolshaya_Mesha
+!
+vlan 3405
+ name ROSTELECOM_UCN_Bolshie_Kibya_Koz
+!
+vlan 3406
+ name ROSTELECOM_UCN_Berxnie_Kibya_Koz
+!
+vlan 3407
+ name ROSTELECOM_UCN_Komarovka
+!
+vlan 3408
+ name ROSTELECOM_UCN_Maksabash
+!
+vlan 3409
+ name ROSTELECOM_UCN_Suash
+!
+vlan 3410
+ name ROSTELECOM_UCN_Starye_Zuri
+!
+vlan 3411
+ name ROSTELECOM_UCN_Sharmashi
+!
+vlan 3501
+ name -=PWR_MGMT=-
+!
+vlan 4000
+ name -=PTP_INET_LINK=-
+!
+vlan 4003
+ name -=Nortel_OAM_PtP_LINK1=-
+!
+vlan 4004
+ name -=Nortel_NGN_PtP_LINK1=-
+!
+vlan 4006
+ name -=Nortel_OAM_PtP_LINK2=-
+!
+vlan 4007
+ name -=Nortel_NGN_PtP_LINK2=-
+!
+vlan 4028
+ name SYSTEM_112_OAM
+!
+vlan 4029
+ name SYSTEM_112_RTP
+!
+vlan 4087
+ name -=NORTEL_VOIP_NGN=-
+!
+vlan 4089
+ name -=NORTEL_VOIP_OAM=-
+!
+ip tcp path-mtu-discovery
+ip ssh version 2
+!
+class-map match-any BUSINESS
+  description -=Match_Business_Critical_Traffic=-
+  match ip dscp af31 
+  match ip dscp cs3 
+  match mpls experimental topmost 3 
+class-map match-any BULK
+  match ip dscp af11 
+  match mpls experimental topmost 1 
+class-map match-any MGMT
+  description -=Match_Routing_and_Management_Traffic=-
+  match ip dscp cs6 
+  match ip dscp cs2 
+  match mpls experimental topmost 6 
+class-map match-any IPTV
+  description -=Match_Streaming_Video_Traffic=-
+  match ip dscp cs4 
+  match mpls experimental topmost 4 
+class-map match-any VOICE
+  description -=Match_VOICE_and_Videoconference_Traffic=-
+  match ip dscp ef 
+  match mpls experimental topmost 5 
+  match ip dscp cs5 
+!
+policy-map 1m
+  class class-default
+    police cir 1024000
+policy-map 50m
+  class class-default
+    police cir 51200000
+     conform-action transmit
+     exceed-action drop
+policy-map 2,5m
+  class class-default
+    police cir 2560000 bc 80000
+     conform-action transmit
+     exceed-action drop
+policy-map SIP_QOS_OUT
+  class VOICE
+    priority level 1 percent 25
+  class MGMT
+    priority level 2 percent 3
+  class IPTV
+    bandwidth remaining percent 30
+  class BUSINESS
+    bandwidth remaining percent 15
+  class BULK
+    bandwidth remaining percent 15
+policy-map 5m
+  class class-default
+    police cir 5120000 bc 160000
+     conform-action transmit
+     exceed-action drop
+policy-map 128k
+  class class-default
+    police 128000 conform-action transmit exceed-action drop
+policy-map 7m
+  class class-default
+    police cir 7000000 bc 218750
+     conform-action transmit
+     exceed-action drop
+policy-map 25m
+  class class-default
+    police cir 25600000 bc 800000
+     conform-action transmit
+     exceed-action drop
+policy-map QOS_IN
+  class VOICE
+   set mpls experimental imposition 5
+  class MGMT
+   set mpls experimental imposition 6
+  class IPTV
+   set mpls experimental imposition 4
+  class BUSINESS
+   set mpls experimental imposition 3
+  class BULK
+   set mpls experimental imposition 1
+  class class-default
+   set mpls experimental imposition 0
+policy-map 512k
+  class class-default
+    police 512000 conform-action transmit exceed-action drop
+policy-map 2m
+  class class-default
+    police cir 2048000 bc 64000
+     conform-action transmit
+     exceed-action drop
+policy-map 256k
+  class class-default
+    police 264000 conform-action transmit exceed-action drop
+policy-map 10m
+  class class-default
+    police 10100000 conform-action transmit exceed-action drop
+policy-map 4m
+  class class-default
+    police cir 4096000 bc 128000
+     conform-action transmit
+     exceed-action drop
+policy-map 12m
+  class class-default
+    police cir 12100000 bc 385625
+     conform-action transmit
+     exceed-action drop
+policy-map 6m
+  class class-default
+    police cir 6144000 bc 192000
+     conform-action transmit
+     exceed-action drop
+policy-map 30m
+  class class-default
+    police cir 30720000 bc 960000
+     conform-action transmit
+     exceed-action drop
+!
+interface Loopback1
+ description Service_iFace
+ ip address 10.3.2.1 255.255.255.255
+!
+interface Loopback2
+ ip vrf forwarding MGMT
+ ip address 10.3.2.1 255.255.255.255
+!
+interface Loopback30
+ description Router_ID
+ ip address 10.30.3.21 255.255.255.255
+ ip pim sparse-dense-mode
+!
+interface Port-channel1
+ description -=-=XGS-4728_10.3.202.235=-
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 10,11,13,14,41,60,66,67,69,87,105,111,130
+ switchport trunk allowed vlan add 160-172,279,321,324-329,332,334-337,339,341
+ switchport trunk allowed vlan add 343,344,372,373,378,450-460,462,463,586,610
+ switchport trunk allowed vlan add 630,721,745,850-854,900,1101,1150,1151,1200
+ switchport trunk allowed vlan add 1201,1206,1220,1302,1303,1305,1306,1402,1403
+ switchport trunk allowed vlan add 1405,1406,1502,1503,1505,1506,1600,2001,3001
+ switchport trunk allowed vlan add 3004,3041,3300,3309,3315,3317-3321,3402-3411
+ switchport trunk allowed vlan add 4087,4089
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+!
+interface Port-channel1.133
+ description MCHS EDDS (Nagornaya, 3)
+ encapsulation dot1Q 133
+ shutdown
+ xconnect 10.30.1.127 133133 encapsulation mpls
+  mtu 9180
+ service-policy output 256k
+!
+interface Port-channel1.161
+ description POCHTA (POCHTA,BolshieMetesqi,422082) 
+ encapsulation dot1Q 161
+ xconnect 10.30.1.241 2287 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.162
+ description POCHTA (POCHTA,VerkhnieKibia-Kozi,422083) 
+ encapsulation dot1Q 162
+ xconnect 10.30.1.241 2288 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.163
+ description POCHTA (POCHTA,Abdi,422084) 
+ encapsulation dot1Q 163
+ xconnect 10.30.1.241 2289 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.164
+ description POCHTA (POCHTA,Alan,422085) 
+ encapsulation dot1Q 164
+ xconnect 10.30.1.241 2290 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.165
+ description POCHTA (POCHTA,BolshaiaMesha,422088) 
+ encapsulation dot1Q 165
+ xconnect 10.30.1.241 2291 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.166
+ description POCHTA (POCHTA,StaryeZiuri,422091) 
+ encapsulation dot1Q 166
+ xconnect 10.30.1.241 2292 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.167
+ description POCHTA (POCHTA,Uziaq,422092) 
+ encapsulation dot1Q 167
+ xconnect 10.30.1.241 2293 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.168
+ description POCHTA (POCHTA,Sharmashi,422093) 
+ encapsulation dot1Q 168
+ xconnect 10.30.1.241 2294 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.172
+ description POCHTA (POCHTA,Balandysh,422098) 
+ encapsulation dot1Q 172
+ xconnect 10.30.1.241 2298 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.319
+ description Federaciya hokkeya RT (Gogolya,22)
+ encapsulation dot1Q 319
+ xconnect 10.30.1.127 319 encapsulation mpls
+  mtu 9180
+ service-policy input 30m
+ service-policy output 30m
+!
+interface Port-channel1.869
+ description OOO TECHNOSVYAZENGENERING SUD (Sadovaya, 11)
+ encapsulation dot1Q 869
+ xconnect 10.30.1.127 869 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.1216
+ description TLC-RUES_IPTV_1216
+ encapsulation dot1Q 1216
+ xconnect 10.30.0.18 1216 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.1307
+ description TLC-RUES_TR69_1307
+ encapsulation dot1Q 1307
+ xconnect 10.30.0.18 1307 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.1894
+ description ROSTELECOM PROKURATURA (Himikov, 27)
+ encapsulation dot1Q 1894
+ xconnect 10.30.1.241 1894 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2102
+ description MCHS_EDDS Reserv (Nagornaya, 3)
+ encapsulation dot1Q 2102
+ xconnect 10.30.1.127 21022127 encapsulation mpls
+  mtu 9180
+ service-policy output 256k
+!
+interface Port-channel1.2104
+ description PROKURATURA (Himikov, 27)
+ encapsulation dot1Q 2104
+ xconnect 10.30.1.217 121041 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2135
+ description IPCOM PFR
+ encapsulation dot1Q 2135
+ xconnect 10.30.1.227 2135 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2168
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2168
+ xconnect 10.30.1.13 2168 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2200
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2200
+ xconnect 10.30.1.13 2200 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2201
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2201
+ xconnect 10.30.1.13 2201 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2202
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2202
+ xconnect 10.30.1.13 2202 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2203
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2203
+ xconnect 10.30.1.13 2203 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2204
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2204
+ xconnect 10.30.1.13 2204 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2205
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2205
+ xconnect 10.30.1.13 2205 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2206
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2206
+ xconnect 10.30.1.13 2206 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2207
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2207
+ xconnect 10.30.1.13 2207 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2208
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2208
+ xconnect 10.30.1.13 2208 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2209
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2209
+ xconnect 10.30.1.13 2209 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2214
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 2214
+ xconnect 10.30.1.13 2214 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2530
+ description SZO GOS MOU (Alan Skolnaya,1)
+ encapsulation dot1Q 2530
+ xconnect 10.30.1.231 25302530 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.2531
+ description SZO GOS MOU (Bolshaya Mesha Skolnaya,1)
+ encapsulation dot1Q 2531
+ xconnect 10.30.1.231 25312531 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3040
+ description OOO TECHNOSVYAZINGINIRING ZAGS TLC Alan Shkolnaya1
+ encapsulation dot1Q 3040
+ shutdown
+ xconnect 10.30.1.227 3040 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3041
+ description OOO TECHNOSVYAZINGINIRING ZAGS TLC Bolshie Meteski Fatixa Xysny52
+ encapsulation dot1Q 3041
+ shutdown
+ xconnect 10.30.1.227 3041 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3042
+ description OOO TECHNOSVYAZINGINIRING ZAGS TLC Bolshaya Mesha Parkovaya3
+ encapsulation dot1Q 3042
+ shutdown
+ xconnect 10.30.1.227 3042 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3044
+ description OOO TECHNOSVYAZINGINIRING ZAGS TLC Berxnie Kibya-Kozy Lenina6
+ encapsulation dot1Q 3044
+ shutdown
+ xconnect 10.30.1.227 3044 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3045
+ description OOO TECHNOSVYAZINGINIRING ZAGS TLC Malye Kibya-Kozy Malaya19
+ encapsulation dot1Q 3045
+ shutdown
+ xconnect 10.30.1.227 3045 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3046
+ description OOO TECHNOSVYAZINGINIRING ZAGS TLC Starye Zuri Shkolnaya1a
+ encapsulation dot1Q 3046
+ shutdown
+ xconnect 10.30.1.227 3046 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3431
+ description ROSTELECOM_UCN_RTOpen
+ encapsulation dot1Q 3431
+ xconnect 10.30.0.17 3431 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3461
+ description ROSTELECOM_UCN_RTWiFi
+ encapsulation dot1Q 3461
+ xconnect 10.30.0.17 3461 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3480
+ description ROSTELECOM_UCN_4Vlan
+ encapsulation dot1Q 3480
+ xconnect 10.30.0.17 3480 encapsulation mpls
+  mtu 9180
+!
+interface Port-channel1.3597
+ description ROSREESTR ROSTELECOM  (Sovetskaya,40)
+ encapsulation dot1Q 3597
+ shutdown
+ xconnect 10.30.1.117 3597 encapsulation mpls
+  mtu 9180
+ service-policy input 512k
+!
+interface Port-channel1.3639
+ description ROSTELECOM UFMS (Tatarstan, 1)
+ encapsulation dot1Q 3639
+ shutdown
+ xconnect 10.30.1.117 36393639 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet3/0/0
+ description To_PST-RUES-PE3-02_3_16.11.2018
+ mtu 9180
+ ip address 10.3.101.10 255.255.255.252
+ ip pim sparse-mode
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 06151B245C4506171105130018
+ ip ospf network point-to-point
+ ip ospf bfd
+ load-interval 30
+ no negotiation auto
+ mpls ip
+ mpls traffic-eng tunnels
+ bfd interval 100 min_rx 100 multiplier 3
+ cdp enable
+ service-policy output SIP_QOS_OUT
+ hold-queue 2000 in
+ ip rsvp bandwidth percent 65
+!
+interface GigabitEthernet3/0/1
+ description To_MMD-RUES-PE3-01_3_16.11.2018
+ mtu 9180
+ ip address 10.3.102.9 255.255.255.252
+ ip pim sparse-mode
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 06151B245C4506171105130018
+ ip ospf network point-to-point
+ ip ospf bfd
+ load-interval 30
+ no negotiation auto
+ mpls ip
+ mpls traffic-eng tunnels
+ bfd interval 100 min_rx 100 multiplier 3
+ cdp enable
+ service-policy output SIP_QOS_OUT
+ hold-queue 2000 in
+ ip rsvp bandwidth percent 65
+!
+interface GigabitEthernet3/1/0
+ description To_PST-RUES-PE3-02_3_22.11.2018
+ mtu 9180
+ ip address 10.3.101.14 255.255.255.252
+ ip pim sparse-mode
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 06151B245C4506171105130018
+ ip ospf network point-to-point
+ ip ospf bfd
+ load-interval 30
+ no negotiation auto
+ mpls ip
+ mpls traffic-eng tunnels
+ bfd interval 100 min_rx 100 multiplier 3
+ cdp enable
+ service-policy output SIP_QOS_OUT
+ hold-queue 2000 in
+ ip rsvp bandwidth percent 65
+!
+interface GigabitEthernet3/1/1
+ description To_MMD-RUES-PE3-01_3_16.11.2018
+ mtu 9180
+ ip address 10.3.102.13 255.255.255.252
+ ip pim sparse-mode
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 06151B245C4506171105130018
+ ip ospf network point-to-point
+ ip ospf bfd
+ load-interval 30
+ no negotiation auto
+ mpls ip
+ mpls traffic-eng tunnels
+ bfd interval 100 min_rx 100 multiplier 3
+ cdp enable
+ service-policy output SIP_QOS_OUT
+ hold-queue 2000 in
+ ip rsvp bandwidth percent 65
+!
+interface GigabitEthernet4/0/0
+ description To_PST-RUES-PE3-01
+ mtu 9180
+ ip address 10.3.101.2 255.255.255.252
+ ip pim sparse-mode
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 1404060E1C0F2525303A323E36
+ ip ospf network point-to-point
+ ip ospf cost 88
+ ip ospf bfd
+ load-interval 30
+ no negotiation auto
+ mpls ip
+ mpls traffic-eng tunnels
+ bfd interval 100 min_rx 100 multiplier 3
+ cdp enable
+ service-policy output SIP_QOS_OUT
+ hold-queue 2000 in
+!
+interface GigabitEthernet4/0/1
+ description To_MMD-RUES-PE3-01
+ mtu 9180
+ ip address 10.3.102.1 255.255.255.252
+ ip pim sparse-mode
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 06151B245C4506171105130018
+ ip ospf network point-to-point
+ ip ospf bfd
+ load-interval 30
+ no negotiation auto
+ mpls ip
+ mpls traffic-eng tunnels
+ bfd interval 100 min_rx 100 multiplier 3
+ cdp enable
+ service-policy output SIP_QOS_OUT
+ hold-queue 2000 in
+ ip rsvp bandwidth percent 65
+!
+interface GigabitEthernet5/1
+ description TLC-RUES-MTU32-01
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 1-4,9-15,21,22,24,30-34,36,38,39,41,51,55,66,67
+ switchport trunk allowed vlan add 75,82-85,87,110,130,156,207,255,309,310,317
+ switchport trunk allowed vlan add 318,372,379,507,582-584,586,591,606,743,745
+ switchport trunk allowed vlan add 800,801,850-854,900,909,975,999,1101,1215
+ switchport trunk allowed vlan add 2105,2113,3300-3308,3310-3313,3499,3501,4000
+ switchport trunk allowed vlan add 4028,4029,4087,4089
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+ wrr-queue bandwidth percent 35 25 40 
+ wrr-queue queue-limit 25 45 15 
+ wrr-queue random-detect min-threshold 1 50 70 100 100 100 100 100 100 
+ wrr-queue random-detect min-threshold 2 60 80 100 100 100 100 100 100 
+ wrr-queue random-detect max-threshold 1 80 100 100 100 100 100 100 100 
+ wrr-queue random-detect max-threshold 2 90 100 100 100 100 100 100 100 
+ mls qos trust dscp
+ service-policy input QOS_IN
+!
+interface GigabitEthernet5/1.3038
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 879
+ xconnect 10.30.1.13 3038 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/1.3998
+ description WiFi_1024 PARK_OTDIXA
+ encapsulation dot1Q 3998
+ shutdown
+ xconnect 10.30.1.18 3998 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/2
+ description TLC-RUES-MTU3-02
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 2,10,11,15,22,60,70,79,107,132,140,142,156,317
+ switchport trunk allowed vlan add 319,321,322,324,325,327-330,332-344,400
+ switchport trunk allowed vlan add 743-745,852,900,975,1101,1227,1600,3300,3312
+ switchport trunk allowed vlan add 3314,3316,3500,4050
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+ wrr-queue bandwidth percent 35 25 40 
+ wrr-queue queue-limit 25 45 15 
+ wrr-queue random-detect min-threshold 1 50 70 100 100 100 100 100 100 
+ wrr-queue random-detect min-threshold 2 60 80 100 100 100 100 100 100 
+ wrr-queue random-detect max-threshold 1 80 100 100 100 100 100 100 100 
+ wrr-queue random-detect max-threshold 2 90 100 100 100 100 100 100 100 
+ mls qos trust dscp
+ bfd interval 500 min_rx 500 multiplier 5
+ service-policy input QOS_IN
+!
+interface GigabitEthernet5/2.79
+ description TAIF-NK AZS 715, Lenina 71, 105203889/73
+ encapsulation dot1Q 79
+ xconnect 10.30.0.17 79 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/2.140
+ description UFK (Lenina, 80)
+ encapsulation dot1Q 140
+ xconnect 10.30.1.241 3996 encapsulation mpls
+  mtu 9180
+ service-policy output 6m
+!
+interface GigabitEthernet5/2.695
+ description IPMI-444
+ encapsulation dot1Q 695
+ xconnect 10.30.1.13 695695 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/2.1314
+ description L2VPN, ROSTELECOM, POCHTA, TLC Lenina 82B, 103201644/cz 10333
+ encapsulation dot1Q 1314
+ xconnect 10.30.1.241 1314 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/2.1818
+ description LAINET (Leniana, 82b)
+ encapsulation dot1Q 1818
+ shutdown
+ xconnect 10.30.1.117 1818 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/2.2211
+ description -=PPPoE_KZN_PE-01=-
+ encapsulation dot1Q 2211
+ xconnect 10.30.1.13 2211 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/2.2855
+ description TATMEDIA (Lugovaya 6A)
+ encapsulation dot1Q 2855
+ xconnect 10.31.1.52 2855 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/2.3548
+ description FSSP (Lenina, 49)
+ encapsulation dot1Q 3548
+ xconnect 10.30.1.117 3548 encapsulation mpls
+  mtu 9180
+ service-policy output 2m
+!
+interface GigabitEthernet5/2.3915
+ description ---WUS_L2_3915 50Mbps
+ encapsulation dot1Q 3915
+ xconnect 10.30.0.18 3915 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/3
+ description TLC-RUES-5000-1.3.202.44_UP1
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 1-3,5-59,61-68,70-74,76-78,80-103,105-278
+ switchport trunk allowed vlan add 280-341,343-371,374-377,380-590,592-720
+ switchport trunk allowed vlan add 722-877,879-900,902-1149,1152-1199,1202-1205
+ switchport trunk allowed vlan add 1207-1219,1221-1302,1304-2000,2002-3000
+ switchport trunk allowed vlan add 3002-3316,3322-4027,4030-4049,4051-4086,4088
+ switchport trunk allowed vlan add 4090-4094
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+!
+interface GigabitEthernet5/3.2098
+ description L2VPN ROSTELECOM UFSIN UII-1653 TLC ul.Lenina,73 105526205/64
+ encapsulation dot1Q 2098
+ xconnect 10.30.1.241 2098 encapsulation mpls
+  mtu 9180
+ service-policy input 2,5m
+ service-policy output 2,5m
+!
+interface GigabitEthernet5/3.3037
+ description PPPOE_KZN-MTTS-PE1-01
+ encapsulation dot1Q 3037
+ xconnect 10.30.1.13 3037 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4
+ description TLC-B_NYRSI-3520-LTE.3.202.246
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 1-3,5-16,18-59,61-68,70-74,76-78,80-103,105-278
+ switchport trunk allowed vlan add 280-371,374-377,380-590,592-720,722-900
+ switchport trunk allowed vlan add 902-1100,1102-1149,1152-1199,1203-1205
+ switchport trunk allowed vlan add 1207-1219,1221-1302,1304-1599,1601-3316
+ switchport trunk allowed vlan add 3322-4027,4030-4049,4051-4086,4088,4090-4094
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+ speed nonegotiate
+ spanning-tree bpduguard disable
+!
+interface GigabitEthernet5/4.169
+ description POCHTA (POCHTA,BolshieNyrsy,422094) 
+ encapsulation dot1Q 169
+ xconnect 10.30.1.241 2295 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.170
+ description POCHTA (POCHTA,Aidarovo,422095) 
+ encapsulation dot1Q 170
+ xconnect 10.30.1.241 2296 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.171
+ description POCHTA (POCHTA,Shadqi,422096) 
+ encapsulation dot1Q 171
+ xconnect 10.30.1.241 2297 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.878
+ description -=PPPoE_KZN-KMTTS-PE-01=-
+ encapsulation dot1Q 878
+ xconnect 10.30.1.13 878 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.3043
+ description OOO TECHNOSVYAZINGINIRING ZAGS TLC Bolshie Nyrcy Shkolnaya10
+ encapsulation dot1Q 3043
+ shutdown
+ xconnect 10.30.1.227 3043 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.3048
+ description OOO TECHNOSVYAZINGINIRING Shadki ZAGS
+ encapsulation dot1Q 3048
+ shutdown
+ xconnect 10.30.1.227 3048 encapsulation mpls
+  mtu 9180
+ service-policy output 1m
+!
+interface GigabitEthernet5/4.3430
+ description ROSTELECOM_UCN_RTOpen
+ encapsulation dot1Q 3430
+ xconnect 10.30.0.17 3430 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.3460
+ description ROSTELECOM_UCN_RTWiFi
+ encapsulation dot1Q 3460
+ xconnect 10.30.0.17 3460 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.3481
+ description ROSTELECOM_UCN_4Vlan
+ encapsulation dot1Q 3481
+ xconnect 10.30.0.17 3481 encapsulation mpls
+  mtu 9180
+!
+interface GigabitEthernet5/4.3998
+!
+interface GigabitEthernet5/5
+ description LTE_Zyxel_3712_10.3.202.252
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 461,464,900,2001,3001,3002,3004
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+!
+interface GigabitEthernet5/6
+ description -=-=XGS-4728_10.3.202.235-23port=-
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 10,11,13,14,41,60,66,67,69,87,105,111,130
+ switchport trunk allowed vlan add 160-172,279,321,324-329,332,334-337,339,341
+ switchport trunk allowed vlan add 343,344,372,373,378,450-460,462,463,586,610
+ switchport trunk allowed vlan add 630,721,745,850-854,900,1101,1150,1151,1200
+ switchport trunk allowed vlan add 1201,1206,1220,1302,1303,1305,1306,1402,1403
+ switchport trunk allowed vlan add 1405,1406,1502,1503,1505,1506,1600,2001,3001
+ switchport trunk allowed vlan add 3004,3041,3300,3309,3315,3317-3321,3402-3411
+ switchport trunk allowed vlan add 4087,4089
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+ no cdp enable
+ spanning-tree bpduguard disable
+ channel-group 1 mode on
+!
+interface GigabitEthernet5/7
+ description tulyach_s3750_TAT_OLD_NET
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 12,25,65,80,81,160,162,318,322,323,326,328,331
+ switchport trunk allowed vlan add 333,337,338,340,341,800,801,888,900,901,1305
+ switchport trunk allowed vlan add 1405,1505,1600,3002,3004,3300-3321
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+!
+interface GigabitEthernet5/7.160
+ description POCHTA (POCHTA,Tiuliachi,422080) 
+ encapsulation dot1Q 160
+ xconnect 10.30.1.241 2286 encapsulation mpls
+  mtu 9180
+ service-policy output 4m
+!
+interface GigabitEthernet5/8
+ description To_TLC-RUES-PE3-02
+ mtu 9180
+ ip address 10.3.2.65 255.255.255.252
+ ip pim sparse-mode
+ ip ospf authentication message-digest
+ ip ospf authentication-key 7 1404060E1C0F252530
+ ip ospf message-digest-key 1 md5 7 095F5A0C090E181C1F1E05213F
+ ip ospf network point-to-point
+ ip ospf bfd
+ load-interval 30
+ mpls ip
+ mpls traffic-eng tunnels
+ mls qos trust dscp
+ bfd interval 100 min_rx 100 multiplier 3
+ hold-queue 2000 in
+ ip rsvp bandwidth percent 65
+!
+interface GigabitEthernet5/8.1200
+!
+interface GigabitEthernet5/9
+ description -=-=XGS-4728_10.3.202.235-24port=-
+ switchport
+ switchport trunk encapsulation dot1q
+ switchport trunk allowed vlan 10,11,13,14,41,60,66,67,69,87,105,111,130
+ switchport trunk allowed vlan add 160-172,279,321,324-329,332,334-337,339,341
+ switchport trunk allowed vlan add 343,344,372,373,378,450-460,462,463,586,610
+ switchport trunk allowed vlan add 630,721,745,850-854,900,1101,1150,1151,1200
+ switchport trunk allowed vlan add 1201,1206,1220,1302,1303,1305,1306,1402,1403
+ switchport trunk allowed vlan add 1405,1406,1502,1503,1505,1506,1600,2001,3001
+ switchport trunk allowed vlan add 3004,3041,3300,3309,3315,3317-3321,3402-3411
+ switchport trunk allowed vlan add 4087,4089
+ switchport mode trunk
+ mtu 9216
+ load-interval 30
+ no cdp enable
+ spanning-tree bpduguard disable
+ channel-group 1 mode on
+!
+interface Vlan1
+ description To_TLC-RUES-MTU3-01
+ ip vrf forwarding MGMT
+ ip address 10.3.2.97 255.255.255.248
+ load-interval 30
+!
+interface Vlan2
+ ip vrf forwarding MGMT
+ ip address 10.3.2.105 255.255.255.248
+!
+interface Vlan3
+ description Ak-Bars [] 22.09.2003 
+ ip vrf forwarding INET
+ ip address 172.18.130.161 255.255.255.248
+ shutdown
+!
+interface Vlan9
+ description PFR [] 22.11.04 
+ ip vrf forwarding INET
+ ip address 172.18.131.105 255.255.255.252
+ shutdown
+!
+interface Vlan10
+ description TATENERGO_EES
+ ip vrf forwarding TATENERGO_EES
+ ip address 10.64.128.1 255.255.255.252
+!
+interface Vlan11
+ description TATENERGO_EOESB
+ ip vrf forwarding TATENERGO_EOESB
+ ip address 10.66.128.1 255.255.255.252
+ service-policy input 2,5m
+ service-policy output 2,5m
+!
+interface Vlan12
+ description TATSPIRTPROM
+ ip vrf forwarding TATSPIRTPROM
+ ip address 10.255.32.9 255.255.255.248
+ ip summary-address eigrp 112 0.0.0.0 0.0.0.0 250
+!
+interface Vlan13
+ description TATAPCTAH PO4TACbI [N318 1r xxxxxx] 08.11.2005 
+ ip vrf forwarding INET
+ ip address 84.18.111.189 255.255.255.252
+ ip access-group leased-in in
+!
+interface Vlan14
+ description Rosselhoz
+ ip vrf forwarding Rosselhoz
+ ip address 192.168.14.1 255.255.255.252
+!
+interface Vlan15
+ description AKBARS-MED TLC-RUES-MTU3-02 Fa0/8
+ ip vrf forwarding AKBARS-MED
+ ip address 172.26.234.253 255.255.255.252
+!
+interface Vlan17
+ description RESO-Garantiya ul.Lenina,d.49 103558006/96
+ ip vrf forwarding INET
+ ip address 78.138.182.145 255.255.255.248
+ ip access-group leased-in in
+ service-policy input 2,5m
+ service-policy output 2,5m
+!
+interface Vlan21
+ description KRAZAR 
+ ip vrf forwarding MONITOR_TLS
+ ip address 192.168.195.121 255.255.255.248 secondary
+ ip address 192.168.193.169 255.255.255.248
+ no ip redirects
+!
+interface Vlan22
+ description -=Local_RUES_In_Juniper_no_UP=-
+ ip vrf forwarding INET
+ ip address 172.18.148.241 255.255.255.240 secondary
+ ip address 192.168.197.1 255.255.255.0
+ no ip redirects
+ shutdown
+!
+interface Vlan25
+ description KRAZAR
+ ip address 192.168.193.169 255.255.255.248
+ shutdown
+!
+interface Vlan31
+ description UFNS (Lenina, 73)
+ ip vrf forwarding NALOG-TBT
+ ip address 192.168.16.25 255.255.255.252
+ shutdown
+ service-policy input 512k
+ service-policy output 512k
+!
+interface Vlan32
+ description TO Kazna4eistvo MF RT [xxx]__Arthur's_inventarizaciya
+ ip vrf forwarding INET
+ ip address 172.22.234.65 255.255.255.240
+ ip access-group mfrt-in in
+ shutdown
+!
+interface Vlan34
+ description Min-Fin [5.01.05] 
+ ip vrf forwarding INET
+ ip address 172.22.234.33 255.255.255.240
+ ip access-group mfrt-in in
+!
+interface Vlan36
+ description ispolkom[7-238] 
+ ip vrf forwarding INET
+ ip address 172.22.234.81 255.255.255.252
+ shutdown
+!
+interface Vlan39
+ description -=ROSNEDVIG=-
+ ip vrf forwarding ROSNEDVIG
+ ip address 172.23.116.193 255.255.255.252
+!
+interface Vlan41
+ description ROS_GOS
+ ip vrf forwarding ROS_GOS
+ ip address 10.255.32.9 255.255.255.248
+ ip summary-address eigrp 7 0.0.0.0 0.0.0.0 250
+!
+interface Vlan51
+ description HP_IUM
+ ip vrf forwarding HP_IUM
+ ip address 192.168.112.158 255.255.255.248
+ standby 51 ip 192.168.112.153
+!
+interface Vlan60
+ description TATAVTODOR_857 
+ ip vrf forwarding INET
+ ip address 172.22.234.97 255.255.255.252
+ service-policy input 25m
+ service-policy output 25m
+!
+interface Vlan66
+ description PKD
+ ip vrf forwarding PKD
+ ip address 10.255.32.9 255.255.255.248
+ ip summary-address eigrp 11 0.0.0.0 0.0.0.0 250
+!
+interface Vlan67
+ description SB-RT-1
+ ip vrf forwarding SB-RT-1
+ ip address 192.168.36.38 255.255.255.252
+ shutdown
+!
+interface Vlan69
+ description vneved_ohrana_rosgvardii (103198558/278 Tatarstan 1)
+ ip vrf forwarding INET
+ ip address 89.232.75.129 255.255.255.252
+ ip access-group leased-in in
+ service-policy input 2m
+ service-policy output 2m
+!
+interface Vlan70
+ description ROSREESTR Sovetskaya,40
+ ip vrf forwarding ROSNEDVIG
+ ip address 172.26.116.49 255.255.255.252
+ shutdown
+ service-policy input 512k
+ service-policy output 512k
+!
+interface Vlan75
+ description CCTV_OPiO
+ ip vrf forwarding CCTV_AXXON
+ ip address 10.111.9.241 255.255.255.248
+!
+interface Vlan81
+ ip vrf forwarding GTS-MGKH
+ ip address 172.18.207.2 255.255.255.248
+ mpls bgp forwarding
+!
+interface Vlan82
+ description fed_kaz
+ ip vrf forwarding fed_kaz
+ ip address 10.255.32.9 255.255.255.248
+ ip summary-address eigrp 604 0.0.0.0 0.0.0.0 250
+!
+interface Vlan83
+ description [7-801]_Uzjakskoe_selskoe_poselenie 
+ ip vrf forwarding INET
+ ip address 172.22.234.93 255.255.255.252
+ shutdown
+!
+interface Vlan84
+ description Zastava 
+ ip vrf forwarding INET
+ ip address 172.22.250.177 255.255.255.248
+ ip access-group KSPD in
+!
+interface Vlan85
+ description SB-RT-1
+ ip vrf forwarding SB-RT-1
+ ip address 192.168.36.10 255.255.255.252
+ shutdown
+!
+interface Vlan87
+ description SB-RT-1
+ ip vrf forwarding SB-RT-1
+ ip address 192.168.36.14 255.255.255.252
+ shutdown
+!
+interface Vlan90
+ description AK BARS BANK (Lenina, 30a)
+ ip vrf forwarding INET
+ ip address 172.22.234.5 255.255.255.252
+ ip access-group kspd-in in
+!
+interface Vlan104
+ description Guest_FTTH
+ ip vrf forwarding WUS
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.146.238.1 255.255.254.0
+ ip access-group GuestWIFI_ACL_IN in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ shutdown
+!
+interface Vlan105
+ description SET-ILE (Molodeznaya,12)
+ ip vrf forwarding INET
+ ip address 89.232.98.229 255.255.255.252
+ service-policy output 5m
+!
+interface Vlan107
+ description SBERBANK (Lenina, 49)
+ ip vrf forwarding SB-RT-2
+ ip address 192.168.0.106 255.255.255.252
+!
+interface Vlan108
+ description ROSSELHOZBANK (Lenina, 34)
+ ip vrf forwarding Rosselhoz
+ ip address 192.168.154.1 255.255.255.252
+ service-policy output 128k
+!
+interface Vlan109
+ description ROSSELHOZBANK (Lenina, 69)
+ ip vrf forwarding Rosselhoz
+ ip address 192.168.155.1 255.255.255.252
+ service-policy output 128k
+!
+interface Vlan110
+ description GIBDD (Xusni,6)
+ ip vrf forwarding GIBDD
+ ip address 192.168.100.121 255.255.255.252
+ shutdown
+ service-policy output 10m
+!
+interface Vlan111
+ description LMR Plast (a/d Kazan-Shemordan, 75km)
+ ip vrf forwarding INET
+ ip address 89.232.89.185 255.255.255.252
+ ip access-group leased-in in
+ service-policy output 5m
+!
+interface Vlan112
+ description GIBDD (Husni, 6)
+ ip vrf forwarding GIBDD
+ ip address 192.168.100.121 255.255.255.252
+ shutdown
+!
+interface Vlan130
+ description PFR[821]
+ ip vrf forwarding PFR
+ ip address 10.221.25.1 255.255.255.248
+ service-policy output 2m
+!
+interface Vlan131
+ description TYLYACHIINFORM
+ ip vrf forwarding TATARINFORM
+ ip address 172.16.1.33 255.255.255.252
+ service-policy input 1m
+ service-policy output 1m
+!
+interface Vlan132
+ description AK BARS BANK (Lenina, 80)
+ ip vrf forwarding INET
+ ip address 172.22.234.1 255.255.255.252
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan135
+ ip vrf forwarding izbirkom
+ ip address 10.16.254.62 255.255.255.252
+ service-policy input 7m
+ service-policy output 7m
+!
+interface Vlan142
+ description FSS (Lenina, 82b)
+ ip vrf forwarding INET
+ ip address 178.207.155.89 255.255.255.248
+ service-policy output 2m
+!
+interface Vlan156
+ description TELEGRAF
+ ip vrf forwarding TELEGRAF
+ ip address 10.255.32.9 255.255.255.248
+ ip summary-address eigrp 613 0.0.0.0 0.0.0.0 250
+!
+interface Vlan180
+ description VAMIN  (Bolshaya_Nagornaya,1)
+ ip vrf forwarding VAMIN
+ ip address 192.168.153.1 255.255.255.0
+ shutdown
+ service-policy input 2m
+!
+interface Vlan181
+ description VAMIN  (Bolshaya_Nagornaya,1)_2
+ ip vrf forwarding VAMIN
+ ip address 192.168.154.1 255.255.255.0
+ shutdown
+ service-policy input 2m
+!
+interface Vlan213
+ description MVD Uchastkovie (Alan, Pionerskaya, 206)
+ ip vrf forwarding mvd
+ ip address 10.145.228.49 255.255.255.248
+ service-policy output 2m
+!
+interface Vlan255
+ description UFSIN UII#42 (Tatarstan, 1) ME3400 Fa0/20
+ ip vrf forwarding UFSIN
+ ip address 192.168.1.210 255.255.255.252
+ shutdown
+ service-policy input 512k
+ service-policy output 512k
+!
+interface Vlan275
+ description MVD (Bolshie_Nirsy_Shkolnaya,9)
+ ip vrf forwarding mvd
+ ip address 10.145.228.121 255.255.255.248
+ service-policy output 2m
+!
+interface Vlan279
+ description Glavnoe Upravlenie MChS Rossii po RT, ul. B.Nagornaya, d.3, Abonement_104451877/74
+ ip vrf forwarding MCHS_GU
+ ip address 10.110.62.121 255.255.255.252
+ service-policy input 10m
+ service-policy output 10m
+!
+interface Vlan310
+ description SBERBANK (Lenina, 49)
+ ip vrf forwarding SBERBANK
+ ip address 172.18.102.153 255.255.255.252
+ service-policy input 10m
+ service-policy output 10m
+!
+interface Vlan313
+ description OOO Gazprom transgaz Kazan (Lenina 86B)
+ ip vrf forwarding TATTRANSGAZ
+ ip address 10.42.252.14 255.255.255.248
+ service-policy output 5m
+!
+interface Vlan315
+ description --Komputerni_Class-RUES--
+ ip vrf forwarding INET
+ no ip address
+!
+interface Vlan317
+ description UIK/TIK-48 (Lenina)
+ ip vrf forwarding WEB_UIK
+ ip address 10.67.95.73 255.255.255.248
+!
+interface Vlan318
+ description -=UIK-162705=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.73 255.255.255.248
+!
+interface Vlan320
+ description -=UIK-162707=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.89 255.255.255.248
+ shutdown
+!
+interface Vlan321
+ description -=UIK-162708=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.97 255.255.255.248
+!
+interface Vlan322
+ description -=UIK-162709=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.105 255.255.255.248
+!
+interface Vlan323
+ description -=UIK-162710=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.252.9 255.255.255.248
+!
+interface Vlan324
+ description -=UIK-162711=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.121 255.255.255.248
+!
+interface Vlan325
+ description -=UIK-162712=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.129 255.255.255.248
+ shutdown
+!
+interface Vlan326
+ description -=UIK-162713=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.137 255.255.255.248
+ shutdown
+!
+interface Vlan327
+ description -=UIK-162714=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.252.17 255.255.255.248
+!
+interface Vlan328
+ description -=UIK-162715=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.153 255.255.255.248
+ shutdown
+!
+interface Vlan329
+ description -=UIK-162716=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.161 255.255.255.248
+ shutdown
+!
+interface Vlan330
+ description -=UIK-162717=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.169 255.255.255.248
+ shutdown
+!
+interface Vlan331
+ description -=UIK-162718=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.177 255.255.255.248
+ shutdown
+!
+interface Vlan332
+ description -=UIK-162719=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.185 255.255.255.248
+ shutdown
+!
+interface Vlan333
+ description -=UIK-162720=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.193 255.255.255.248
+ shutdown
+!
+interface Vlan334
+ description -=UIK-162721=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.201 255.255.255.248
+ shutdown
+!
+interface Vlan335
+ description -=UIK-162722=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.252.25 255.255.255.248
+ shutdown
+!
+interface Vlan336
+ description -=UIK-162723=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.217 255.255.255.248
+ shutdown
+!
+interface Vlan337
+ description -=UIK-162724=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.252.33 255.255.255.248
+ shutdown
+!
+interface Vlan338
+ description -=UIK-162725=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.233 255.255.255.248
+ shutdown
+!
+interface Vlan339
+ description -=UIK-162726=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.241 255.255.255.248
+ shutdown
+!
+interface Vlan340
+ description -=UIK-162727=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.212.249 255.255.255.248
+!
+interface Vlan341
+ description -=UIK-162728=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.213.1 255.255.255.248
+!
+interface Vlan342
+ description -=UIK-162729=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.213.9 255.255.255.248
+ shutdown
+!
+interface Vlan343
+ description -=UIK-162730=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.213.17 255.255.255.248
+ shutdown
+!
+interface Vlan344
+ description -=UIK-162731=- 
+ ip vrf forwarding WEB_UIK
+ ip address 172.20.213.25 255.255.255.248
+!
+interface Vlan372
+ description sip_shluz_home
+ ip vrf forwarding NORTEL_NGN
+ ip address 172.26.36.1 255.255.255.248
+!
+interface Vlan373
+ description sip_shluz_home_2
+ ip vrf forwarding NORTEL_NGN
+ ip address 172.26.36.17 255.255.255.240
+!
+interface Vlan378
+ description Ingosstrah ul.Lenina,d.21 105069979/1 
+ ip vrf forwarding INET
+ ip address 89.232.77.21 255.255.255.252
+ ip access-group leased-in in
+ service-policy input 6m
+ service-policy output 6m
+!
+interface Vlan379
+ description "Tulyachinskoe raionnoe gosudarstvennoe veterinarnoe obedinenie" ul.Lenina d.82 105179944/47
+ ip vrf forwarding INET
+ ip address 78.138.182.69 255.255.255.252
+ ip access-group leased-in in
+ service-policy input 6m
+ service-policy output 6m
+!
+interface Vlan380
+ description POCHTA (Lenina,56)
+ ip vrf forwarding POCHTA
+ ip address 10.21.219.97 255.255.255.224
+!
+interface Vlan400
+ description Bassejn (Olimpijskaya,7)
+ ip vrf forwarding INET
+ ip address 89.232.74.121 255.255.255.252
+ ip access-group leased-in in
+ shutdown
+ service-policy output 10m
+!
+interface Vlan450
+ description SZO OGV and OMSU (Alan Shkolnaya,1)
+ ip vrf forwarding SZO
+ ip address 10.202.22.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan451
+ description SZO OGV and OMSU (Bolshaya Mesha Shkolnaya,1)
+ ip vrf forwarding SZO
+ ip address 10.202.26.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan452
+ description SZO FAP (Balandysh Kirova,1)
+ ip vrf forwarding SZO
+ ip address 10.202.23.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan453
+ description SZO FAP (Verxniy Meteski Centralnaya,15a)
+ ip vrf forwarding SZO
+ ip address 10.202.29.1 255.255.255.252
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan454
+ description SZO FAP (Lesnoy Tatarstan,21)
+ ip vrf forwarding SZO
+ ip address 10.202.30.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan455
+ description SZO OGV and OMSU (Starye Zuri Skolnaya,1a )
+ ip vrf forwarding SZO
+ ip address 10.202.35.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan456
+ description SZO FAP (Malye Kibya Kozi Malaya,34)
+ ip vrf forwarding SZO
+ ip address 10.202.33.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan457
+ description SZO FAP (Starye Zuri Centralnaya,19)
+ ip vrf forwarding SZO
+ ip address 10.202.34.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan458
+ description SZO OGV and OMSU (Malye Kibya Kozi Malaya,10)
+ ip vrf forwarding SZO
+ ip address 10.202.32.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan459
+ description SZO FAP (Bolshie Meteski Fatixa Xusni,52a)
+ ip vrf forwarding SZO
+ ip address 10.202.27.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan460
+ description SZO FAP (Maksabash Kirova,3a)
+ ip vrf forwarding SZO
+ ip address 10.202.31.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan461
+ description SZO FAP (Bolshie Nursy Shkolnaya,10)
+ ip vrf forwarding SZO
+ ip address 10.202.28.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan462
+ description SZO FAP (Bolshaya Mesha Shkolnaya,1)
+ ip vrf forwarding SZO
+ ip address 10.202.25.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan463
+ description SZO FAP (Alan Shkolnaya,1)
+ ip vrf forwarding SZO
+ ip address 10.202.21.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan464
+ description SZO, Tyulyachi, Tatarstana, 1, Rosgvardiya  
+ ip vrf forwarding SZO
+ ip address 10.204.186.1 255.255.255.0
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan507
+ description KSPD
+ ip vrf forwarding KSPD
+ ip address 192.168.122.105 255.255.255.248
+!
+interface Vlan580
+ description Upravlenye_Celskogo_Xozyaistva[142/09]_Arthur's inventarizaciya
+ ip vrf forwarding MCX_BASHRTCOMM
+ ip address 10.118.22.9 255.255.255.252
+ shutdown
+!
+interface Vlan581
+ description FEDKAZ_BASHRTCOMM_142/09
+ ip vrf forwarding FEDKAZ_BASHRTCOMM
+ ip address 192.168.11.245 255.255.255.252
+ shutdown
+ service-policy input 512k
+ service-policy output 512k
+!
+interface Vlan582
+ description MVD (Lenina, 38)
+ ip vrf forwarding mvd
+ ip address 10.151.250.149 255.255.255.252
+ service-policy input 7m
+ service-policy output 7m
+!
+interface Vlan583
+ description TTC_CAMERAS
+ ip vrf forwarding TATMVDCAMERA
+ ip address 10.11.254.254 255.255.255.0
+!
+interface Vlan584
+ description Administracia_Kam_vremenno
+ ip vrf forwarding TATMVDCAMERA
+ ip address 10.11.253.9 255.255.255.248 secondary
+ ip address 10.11.253.1 255.255.255.248
+ no ip redirects
+!
+interface Vlan586
+ description SUD_KP2400
+ ip vrf forwarding SUD_TLC
+ ip address 10.116.79.5 255.255.255.252
+!
+interface Vlan591
+ description Narodniy_Control (Tatarstan, 1) 105087095/150
+ ip vrf forwarding INET
+ ip address 89.232.102.65 255.255.255.252
+ ip access-group leased-in in
+ service-policy input 12m
+ service-policy output 12m
+!
+interface Vlan606
+ description MGMT_Firewall 
+ ip vrf forwarding MGMT_Firewall
+ ip address 10.255.76.1 255.255.255.0
+!
+interface Vlan610
+ description UIK/TIK-48 (g. Bolgar, Ul. Hirurga Scheronova, d. 21)
+ ip vrf forwarding WEB_UIK
+ ip address 10.67.95.65 255.255.255.248
+!
+interface Vlan630
+ description ERC TATENERGOSBYT (Tukaya,2b)
+ ip vrf forwarding INET
+ ip address 89.232.88.225 255.255.255.252
+ ip access-group leased-in in
+ shutdown
+ service-policy output 1m
+!
+interface Vlan721
+ description Video_kamery_TOPGAZ
+ ip vrf forwarding CCTV_AXXON
+ ip address 10.111.43.1 255.255.255.240
+!
+interface Vlan743
+ description CCTV-444-MVD
+ ip vrf forwarding TATMVDCAMERA
+ ip address 10.11.2.241 255.255.255.240
+!
+interface Vlan744
+ description CCTV-444-SERVER
+ ip vrf forwarding TATMVDCAMERA
+ ip address 10.11.2.1 255.255.255.248
+!
+interface Vlan745
+ description CCTV-444-CAMERA
+ ip vrf forwarding TATMVDCAMERA
+ ip address 10.11.2.17 255.255.255.240
+!
+interface Vlan800
+ description Multicast
+ ip address 10.3.2.169 255.255.255.252
+ ip pim sparse-mode
+!
+interface Vlan801
+ description IPTV_vill
+ ip vrf forwarding IPTV
+ ip dhcp relay information option-insert 
+ ip address 10.20.42.1 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan888
+ description RUES_MANAGER_DSL
+ ip vrf forwarding MGMT
+ ip address 172.16.73.1 255.255.255.0
+!
+interface Vlan900
+ description MANAGER_DSLAM
+ ip vrf forwarding MGMT
+ ip address 10.2.223.1 255.255.255.0 secondary
+ ip address 10.3.202.1 255.255.255.0
+ ip access-group DSLAM_MGMT in
+ no ip redirects
+!
+interface Vlan901
+ description Monitoring_Zelax
+ ip vrf forwarding m_Zelax
+ ip address 10.3.212.1 255.255.255.0
+!
+interface Vlan905
+ description Wifi-Street (Wifi-street) 
+ ip vrf forwarding Wifi-Street
+ ip address 10.222.29.1 255.255.255.0
+!
+interface Vlan975
+ description WAP
+ ip vrf forwarding WAP
+ ip address 10.65.58.1 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+!
+interface Vlan1101
+ description FTTH_1101
+ ip vrf forwarding FTTH
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.222.201.1 255.255.255.0 secondary
+ ip address 10.214.201.1 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+!
+interface Vlan1150
+ description VATS_OAO_NASKO
+ ip vrf forwarding FTTH
+ ip address 172.27.66.81 255.255.255.240
+!
+interface Vlan1151
+ description VATS_TOPGAZ
+ ip vrf forwarding FTTH
+ ip address 172.27.71.33 255.255.255.240
+!
+interface Vlan1200
+ description Multicast_XGS-4728
+ ip address 10.3.2.165 255.255.255.252
+ ip pim dr-priority 10
+ ip pim sparse-mode
+!
+interface Vlan1201
+ description IPTV_vrf
+ ip vrf forwarding IPTV
+ ip dhcp relay information option-insert 
+ ip address 10.35.40.2 255.255.248.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ standby 35 ip 10.35.40.1
+ standby 35 priority 120
+ standby 35 preempt
+!
+interface Vlan1202
+ description IPTV_5k-1
+ ip vrf forwarding IPTV
+ ip dhcp relay information option-insert 
+ ip address 10.25.84.2 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ standby 35 ip 10.25.84.1
+ standby 35 priority 90
+ standby 35 preempt
+!
+interface Vlan1206
+ description IPTV_5k-2
+ ip vrf forwarding IPTV
+ ip dhcp relay information option-insert 
+ ip address 10.30.42.2 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ standby 35 ip 10.30.42.1
+ standby 35 priority 120
+ standby 35 preempt
+!
+interface Vlan1215
+ description IPTV_test
+ ip vrf forwarding IPTV
+ ip address 10.51.151.1 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan1220
+ description IPTV
+ ip vrf forwarding IPTV
+ ip address 10.29.66.2 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ standby 35 ip 10.29.66.1
+ standby 35 priority 120
+ standby 35 preempt
+!
+interface Vlan1227
+ description multic_test_TET
+ ip address 10.3.2.201 255.255.255.252
+ ip pim sparse-mode
+!
+interface Vlan1235
+ description mvr_5k_10.3.202.44 
+ ip address 10.3.2.174 255.255.255.252
+ ip pim sparse-mode
+!
+interface Vlan1236
+ description IPTV_5k_10.3.202.44 
+ ip vrf forwarding IPTV
+ ip address 10.50.88.2 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ standby 35 ip 10.50.88.1
+ standby 35 priority 90
+ standby 35 preempt
+!
+interface Vlan1237
+ description IPTV-SHADKI-5k
+ ip vrf forwarding IPTV
+ ip dhcp relay information option-insert 
+ ip address 10.50.126.1 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan1238
+ description IPTV_B.Nyrsi-3528 
+ ip vrf forwarding IPTV
+ ip dhcp relay information option-insert 
+ ip address 10.50.128.1 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan1301
+ description TR69_TLC-RUES-5000-1
+ ip vrf forwarding TR69
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.135.186.1 255.255.254.0
+ ip access-group TR69_ACL in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan1302
+ description TR69_TLC-RUES-5000-2
+ ip vrf forwarding TR69
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.141.132.1 255.255.255.0
+ ip access-group TR69_ACL in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan1303
+ description TR69_TLC-Vinos-5005-1
+ ip vrf forwarding TR69
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.141.133.1 255.255.255.0
+ ip access-group TR69_ACL in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan1304
+ description TR69_TLC-Aidarovo
+ ip vrf forwarding TR69
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.141.134.1 255.255.255.0 secondary
+ ip address 10.136.176.1 255.255.254.0
+ ip access-group TR69_ACL in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+!
+interface Vlan1305
+ description TR69_TLC-Karashirma
+ ip vrf forwarding TR69
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.141.135.1 255.255.255.0
+ ip access-group TR69_ACL in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+!
+interface Vlan1306
+ description TR69_TLC-Abdi
+ ip vrf forwarding TR69
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.132.156.1 255.255.252.0 secondary
+ ip address 10.142.104.1 255.255.248.0
+ ip access-group TR69_ACL in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+!
+interface Vlan1401
+ description SIP_TLC-RUES-5000-1 
+ ip vrf forwarding SIP_ADSL
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.155.227.2 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ standby 1 ip 10.155.227.1
+ standby 1 timers msec 200 msec 750
+ standby 1 priority 110
+ standby 1 authentication md5 key-string 7 00373A363B6F27254213796B3A545047425B4155
+!
+interface Vlan1402
+ description SIP_TLC-RUES-5000-2 
+ ip vrf forwarding SIP_ADSL
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.155.228.2 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ standby 2 ip 10.155.228.1
+ standby 2 timers msec 200 msec 750
+ standby 2 priority 110
+ standby 2 authentication md5 key-string 7 107D20293A233E2841361F0E1765666572434A44
+!
+interface Vlan1403
+ description SIP_TLC-Vinos-5005-1 
+ ip vrf forwarding SIP_ADSL
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.155.229.2 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ standby 3 ip 10.155.229.1
+ standby 3 timers msec 200 msec 750
+ standby 3 priority 110
+ standby 3 authentication md5 key-string 7 13363E22343828096612213D3A315E524653541B08
+!
+interface Vlan1404
+ description SIP_TLC-Aidarovo 
+ ip vrf forwarding SIP_ADSL
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.155.230.2 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ standby 4 ip 10.155.230.1
+ standby 4 timers msec 200 msec 750
+ standby 4 priority 110
+ standby 4 authentication md5 key-string 7 0812657E362D29345F2A05002B392B3E3C
+!
+interface Vlan1405
+ description SIP_TLC-Karashirma 
+ ip vrf forwarding SIP_ADSL
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.155.231.2 255.255.255.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ standby 5 ip 10.155.231.1
+ standby 5 timers msec 200 msec 750
+ standby 5 priority 110
+ standby 5 authentication md5 key-string 7 01202F34643F2A2C6C674F1B18161F1B190105
+!
+interface Vlan1406
+ description SIP_TLC-Abdi 
+ ip vrf forwarding SIP_ADSL
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.157.160.2 255.255.254.0
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ standby 6 ip 10.157.160.1
+ standby 6 timers msec 200 msec 750
+ standby 6 priority 110
+ standby 6 authentication md5 key-string 7 073C087C713D35265A3309080D
+!
+interface Vlan1501
+ description Guest_TLC-RUES-5000-1 
+ ip vrf forwarding WUS
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.151.195.1 255.255.255.0
+ ip access-group GuestWIFI_ACL_IN in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ shutdown
+!
+interface Vlan1502
+ description Guest_TLC-RUES-5000-2 
+ ip vrf forwarding WUS
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.151.196.1 255.255.255.0
+ ip access-group GuestWIFI_ACL_IN in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ shutdown
+!
+interface Vlan1503
+ description Guest_TLC-Vinos-5005-1 
+ ip vrf forwarding WUS
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.151.197.1 255.255.255.0
+ ip access-group GuestWIFI_ACL_IN in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ shutdown
+!
+interface Vlan1504
+ description Guest_TLC-Aidarovo 
+ ip vrf forwarding WUS
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.151.198.1 255.255.255.0
+ ip access-group GuestWIFI_ACL_IN in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ shutdown
+!
+interface Vlan1505
+ description Guest_TLC-Karashirma 
+ ip vrf forwarding WUS
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.151.199.1 255.255.255.0
+ ip access-group GuestWIFI_ACL_IN in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ shutdown
+!
+interface Vlan1506
+ description Guest_TLC-Abdi 
+ ip vrf forwarding WUS
+ ip dhcp relay information trusted
+ ip dhcp relay information policy-action replace
+ ip address 10.147.230.1 255.255.254.0
+ ip access-group GuestWIFI_ACL_IN in
+ ip helper-address vrf MGMT 10.16.252.20
+ ip helper-address vrf MGMT 10.16.252.21
+ no ip redirects
+ shutdown
+!
+interface Vlan1600
+ description CENSOR_MGMT
+ ip vrf forwarding CENSOR
+ ip address 10.3.192.1 255.255.255.0
+!
+interface Vlan2001
+ description LTE_LTE
+ ip vrf forwarding LTE_LTE
+ ip address 172.27.85.225 255.255.255.224
+ standby 30 ip 172.27.85.227
+ standby 30 timers msec 200 msec 750
+ standby 30 priority 110
+ standby 30 preempt
+!
+interface Vlan2105
+ description GIST MCHS SYSTEM 112  (Nagornaya,3)
+ ip vrf forwarding SYSTEM_112_RTP
+ ip address 10.12.11.137 255.255.255.248
+!
+interface Vlan2113
+ description EGE_2015 (SOSH Shkolnaya 3) TLC-RUES-MTU3-01 Fa0/14
+ ip vrf forwarding EGE_2015
+ ip address 11.9.7.161 255.255.255.224
+!
+interface Vlan3001
+ description LTE_OAM
+ ip vrf forwarding LTE_OAM
+ ip address 172.27.84.225 255.255.255.224
+ ip helper-address 172.27.26.2
+ standby 31 ip 172.27.84.227
+ standby 31 timers msec 200 msec 750
+ standby 31 priority 110
+ standby 31 preempt
+!
+interface Vlan3002
+ description TCU_OAM
+ ip vrf forwarding LTE_OAM
+ ip address 172.27.98.98 255.255.255.248
+ standby 32 ip 172.27.98.97
+ standby 32 timers msec 200 msec 750
+ standby 32 priority 110
+ standby 32 preempt
+!
+interface Vlan3004
+ description lte_energomera
+ ip vrf forwarding LTE_OAM
+ ip address 10.40.34.1 255.255.255.224
+ standby 34 ip 10.40.34.3
+ standby 34 timers msec 200 msec 750
+ standby 34 priority 110
+ standby 34 preempt
+!
+interface Vlan3400
+ description ROSTELECOM_UCN_Aidarovo
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.1 255.255.255.240
+!
+interface Vlan3401
+ description ROSTELECOM_UCN_Bolshie_Nirsy
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.49 255.255.255.240
+!
+interface Vlan3402
+ description ROSTELECOM_UCN_Balandysh
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.33 255.255.255.240
+!
+interface Vlan3403
+ description ROSTELECOM_UCN_Balykly
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.17 255.255.255.240
+!
+interface Vlan3404
+ description ROSTELECOM_UCN_Bolshaya_Mesha
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.65 255.255.255.240
+!
+interface Vlan3405
+ description ROSTELECOM_UCN_Bolshie_Kibya_Kozi
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.113 255.255.255.240
+!
+interface Vlan3406
+ description ROSTELECOM_UCN_Berxnie_Kibya_Kozi
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.81 255.255.255.240
+!
+interface Vlan3407
+ description ROSTELECOM_UCN_Komarovka
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.145 255.255.255.240
+!
+interface Vlan3408
+ description ROSTELECOM_UCN_Maksabash
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.97 255.255.255.240
+!
+interface Vlan3409
+ description ROSTELECOM_UCN_Suash
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.161 255.255.255.240
+!
+interface Vlan3410
+ description ROSTELECOM_UCN_Starye_Zuri
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.129 255.255.255.240
+!
+interface Vlan3411
+ description ROSTELECOM_UCN_Sharmashi
+ ip vrf forwarding RTK-UCN-MGMT
+ ip address 10.213.230.177 255.255.255.240
+!
+interface Vlan3501
+ description -=PWR_MGMT=-
+ ip vrf forwarding PWR_MGMT
+ ip address 10.192.4.2 255.255.255.248
+ glbp 1 ip 10.192.4.1
+ glbp 1 timers msec 200 msec 750
+ glbp 1 priority 110
+ glbp 1 preempt
+ glbp 1 load-balancing host-dependent
+!
+interface Vlan4000
+ ip vrf forwarding INET
+ ip address 10.255.32.9 255.255.255.248
+!
+interface Vlan4003
+ description -=Nortel_OAM_PtP_LINK1=-
+ ip vrf forwarding NORTEL_OAM
+ ip address 172.22.19.65 255.255.255.248
+ ip ospf hello-interval 1
+ shutdown
+!
+interface Vlan4004
+ description -=Nortel_NGN_PtP_LINK1=-
+ ip vrf forwarding NORTEL_NGN
+ ip address 172.22.38.225 255.255.255.248
+ ip ospf hello-interval 1
+ shutdown
+!
+interface Vlan4006
+ description -=Nortel_OAM_PtP_LINK2=-
+ ip vrf forwarding NORTEL_OAM
+ ip address 172.22.19.73 255.255.255.248
+ ip ospf hello-interval 1
+ shutdown
+!
+interface Vlan4007
+ description -=Nortel_NGN_PtP_LINK2=-
+ ip vrf forwarding NORTEL_NGN
+ ip address 172.22.28.233 255.255.255.248
+ ip ospf hello-interval 1
+ shutdown
+!
+interface Vlan4028
+ description SYSTEM_112_OAM
+ ip vrf forwarding SYSTEM_112_OAM
+ ip address 10.12.3.66 255.255.255.240
+ standby 28 ip 10.12.3.65
+ standby 28 timers msec 200 msec 750
+ standby 28 priority 110
+ standby 28 track 1 shutdown
+!
+interface Vlan4029
+ description SYSTEM_112_RTP
+ ip vrf forwarding SYSTEM_112_RTP
+ ip address 10.12.6.66 255.255.255.240
+ standby 29 ip 10.12.6.65
+ standby 29 timers msec 200 msec 750
+ standby 29 priority 110
+ standby 29 track 1 shutdown
+!
+interface Vlan4087
+ description -=NORTEL_VOIP_NGN=-
+ ip vrf forwarding NORTEL_NGN
+ ip address 172.22.39.233 255.255.255.248
+!
+interface Vlan4089
+ description -=NORTEL_OAM_NGN=-
+ ip vrf forwarding NORTEL_OAM
+ ip address 172.22.19.81 255.255.255.248
+!
+router eigrp 65000
+ !
+ address-family ipv4 vrf fed_kaz 
+  network 10.255.32.8 0.0.0.7
+  neighbor 10.255.32.14 Vlan82
+  autonomous-system 604
+ exit-address-family
+ !
+ address-family ipv4 vrf TELEGRAF 
+  network 10.255.32.8 0.0.0.7
+  neighbor 10.255.32.14 Vlan156
+  autonomous-system 613
+ exit-address-family
+ !
+ address-family ipv4 vrf TATSPIRTPROM 
+  network 10.255.32.8 0.0.0.7
+  neighbor 10.255.32.14 Vlan12
+  autonomous-system 112
+ exit-address-family
+ !
+ address-family ipv4 vrf ROS_GOS 
+  network 10.255.32.8 0.0.0.7
+  neighbor 10.255.32.14 Vlan41
+  autonomous-system 7
+ exit-address-family
+ !
+ address-family ipv4 vrf PKD 
+  network 10.255.32.8 0.0.0.7
+  neighbor 10.255.32.14 Vlan66
+  autonomous-system 11
+ exit-address-family
+!
+router ospf 5 vrf INET
+ log-adjacency-changes
+ redistribute static subnets
+ redistribute connected subnets
+ passive-interface default
+ no passive-interface Vlan4000
+ network 10.255.32.8 0.0.0.7 area 32
+ default-information originate
+!
+router ospf 12 vrf TATENERGO_CHELNY
+ router-id 10.232.36.1
+ log-adjacency-changes
+ shutdown
+ redistribute bgp 65000 subnets
+ network 10.232.36.0 0.0.0.3 area 232
+ network 10.232.36.4 0.0.0.3 area 232
+!
+router ospf 10 vrf SB-RT-1
+ router-id 192.168.36.10
+ log-adjacency-changes
+ redistribute static subnets
+ redistribute connected subnets
+ network 192.168.36.8 0.0.0.3 area 10
+!
+router ospf 3 vrf MGMT
+ log-adjacency-changes
+ passive-interface Loopback2
+ network 10.3.2.1 0.0.0.0 area 3
+ network 10.3.2.96 0.0.0.7 area 3
+ network 10.3.2.104 0.0.0.7 area 3
+ network 10.3.110.0 0.0.0.255 area 3
+ network 10.3.202.1 0.0.0.0 area 3
+ network 10.65.21.96 0.0.0.7 area 3
+ default-information originate always
+!
+router ospf 1
+ router-id 10.30.3.21
+ ispf
+ log-adjacency-changes
+ auto-cost reference-bandwidth 80000
+ timers throttle spf 30 100 1000
+ timers throttle lsa 30 100 1000
+ timers lsa arrival 50
+ passive-interface GigabitEthernet5/1
+ passive-interface Loopback1
+ passive-interface Loopback30
+ network 10.3.2.1 0.0.0.0 area 0
+ network 10.3.2.64 0.0.0.3 area 0
+ network 10.3.101.0 0.0.0.3 area 0
+ network 10.3.101.8 0.0.0.3 area 0
+ network 10.3.101.12 0.0.0.3 area 0
+ network 10.3.102.0 0.0.0.3 area 0
+ network 10.3.102.8 0.0.0.3 area 0
+ network 10.3.102.12 0.0.0.3 area 0
+ network 10.30.3.21 0.0.0.0 area 0
+ mpls traffic-eng router-id Loopback30
+ mpls traffic-eng area 0
+ mpls traffic-eng multicast-intact
+!
+router bgp 65000
+ template peer-policy iBGP
+  next-hop-self
+  send-community both
+ exit-peer-policy
+ !
+ template peer-session iBGP
+  remote-as 65000
+  description RR_Cluster1
+  update-source Loopback30
+  fall-over
+ exit-peer-session
+ !
+ bgp router-id 10.30.3.21
+ no bgp default ipv4-unicast
+ bgp log-neighbor-changes
+ bgp deterministic-med
+ bgp update-delay 1
+ timers bgp 1 20
+ neighbor 10.30.1.115 inherit peer-session iBGP
+ neighbor 10.30.1.115 description RR_KZN-ATS521-L3PE-01_Cluster1
+ neighbor 10.30.1.115 password 7 00485413435C0D0E052A41
+ neighbor 10.30.5.16 inherit peer-session iBGP
+ neighbor 10.30.5.16 description RR_CHE-MTTS-L3PE-02_Cluster1
+ neighbor 10.30.5.16 password 7 134950074C0B0222212F25
+ neighbor 172.18.143.1 remote-as 34887
+ !
+ address-family ipv4
+  no synchronization
+  bgp nexthop trigger delay 0
+  no auto-summary
+ exit-address-family
+ !
+ address-family vpnv4
+  bgp nexthop trigger delay 0
+  bgp scan-time 5
+  neighbor 10.30.1.115 activate
+  neighbor 10.30.1.115 send-community extended
+  neighbor 10.30.1.115 inherit peer-policy iBGP
+  neighbor 10.30.5.16 activate
+  neighbor 10.30.5.16 send-community extended
+  neighbor 10.30.5.16 inherit peer-policy iBGP
+ exit-address-family
+ !
+ address-family ipv4 vrf AKBARS-MED
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf CCTV_AXXON
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf CENSOR
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf CITY
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf EGE_2015
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf FEDKAZ_BASHRTCOMM
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf FTTH
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf GIBDD
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf GTS-MGKH
+  no synchronization
+  redistribute connected
+  neighbor 172.18.207.1 remote-as 34887
+  neighbor 172.18.207.1 activate
+  neighbor 172.18.207.1 as-override
+  neighbor 172.18.207.1 send-label
+ exit-address-family
+ !
+ address-family ipv4 vrf HP_IUM
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf INET
+  no synchronization
+  redistribute static
+  redistribute connected
+  redistribute ospf 5 vrf INET match internal external 1 external 2
+ exit-address-family
+ !
+ address-family ipv4 vrf IPTV
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf KSPD
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf LTE_LTE
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf LTE_OAM
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf MCHS_GU
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf MCX_BASHRTCOMM
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf MEHT-TB
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf MGMT
+  no synchronization
+  redistribute connected
+  redistribute ospf 3 vrf MGMT match internal external 1 external 2
+ exit-address-family
+ !
+ address-family ipv4 vrf MGMT_Firewall
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf MONITOR_TLS
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf NALOG-TBT
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf NARINSPEKT-MVD
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf NORTEL_NGN
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf NORTEL_OAM
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf PFR
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf PKD
+  no synchronization
+  redistribute eigrp 11
+ exit-address-family
+ !
+ address-family ipv4 vrf POCHTA
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf PWR_MGMT
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf ROSNEDVIG
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf ROS_GOS
+  no synchronization
+  redistribute eigrp 7
+ exit-address-family
+ !
+ address-family ipv4 vrf RTK-UCN-MGMT
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf Rosselhoz
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf SB-RT-1
+  no synchronization
+  redistribute static
+  redistribute connected
+  redistribute ospf 10 vrf SB-RT-1 match internal external 1 external 2
+ exit-address-family
+ !
+ address-family ipv4 vrf SB-RT-2
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf SBERBANK
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf SIP_ADSL
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf SUD_TLC
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf SYSTEM_112_OAM
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf SYSTEM_112_RTP
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf SZO
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf TATARINFORM
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf TATENERGO_CHELNY
+  no synchronization
+  redistribute static
+  redistribute connected
+  redistribute ospf 12 vrf TATENERGO_CHELNY match internal external 1 external 2
+ exit-address-family
+ !
+ address-family ipv4 vrf TATENERGO_EES
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf TATENERGO_EOESB
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf TATMVDCAMERA
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf TATSPIRTPROM
+  no synchronization
+  redistribute eigrp 112
+ exit-address-family
+ !
+ address-family ipv4 vrf TATTRANSGAZ
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf TELEGRAF
+  no synchronization
+  redistribute eigrp 613
+ exit-address-family
+ !
+ address-family ipv4 vrf TR69
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf UFSIN
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf VAMIN
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf WAP
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf WEB_UIK
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf WUS
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf Wifi-Street
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf fed_kaz
+  no synchronization
+  redistribute eigrp 604
+ exit-address-family
+ !
+ address-family ipv4 vrf izbirkom
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf kspd_local
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf m_Zelax
+  no synchronization
+  redistribute connected
+ exit-address-family
+ !
+ address-family ipv4 vrf mvd
+  no synchronization
+  redistribute static
+  redistribute connected
+ exit-address-family
+!
+no ip http server
+no ip http secure-server
+ip pim rp-address 10.30.0.14 AUTORP_NETWORKS
+ip pim autorp listener
+ip route 10.3.0.0 255.255.0.0 Null0 254
+ip route vrf FEDKAZ_BASHRTCOMM 10.11.128.0 255.255.254.0 192.168.11.246
+ip route vrf FEDKAZ_BASHRTCOMM 10.139.128.0 255.255.254.0 192.168.11.246
+ip route vrf FEDKAZ_BASHRTCOMM 10.254.11.128 255.255.255.254 192.168.11.246
+ip route vrf MCX_BASHRTCOMM 10.18.22.0 255.255.255.0 10.118.22.10
+ip route vrf NALOG-TBT 10.16.3.0 255.255.255.0 192.168.16.26
+ip route vrf NALOG-TBT 172.30.22.112 255.255.255.240 192.168.16.26
+ip route vrf ROSNEDVIG 172.23.16.192 255.255.255.240 Vlan39 172.23.116.194
+ip route vrf Rosselhoz 10.115.8.104 255.255.255.248 192.168.14.2
+ip route vrf Rosselhoz 192.168.14.16 255.255.255.240 192.168.14.2
+ip route vrf SUD_TLC 10.16.79.0 255.255.255.0 10.116.79.6
+ip route vrf TATENERGO_EES 10.64.129.0 255.255.255.0 10.64.128.2
+ip route vrf TATENERGO_EES 10.64.255.129 255.255.255.255 10.64.128.2
+ip route vrf TATENERGO_EOESB 10.66.129.0 255.255.255.0 10.66.128.2
+ip route vrf TATENERGO_EOESB 10.66.130.0 255.255.255.248 10.66.128.2
+ip route vrf TATENERGO_EOESB 10.66.255.129 255.255.255.255 10.66.128.2
+ip route vrf UFSIN 10.16.181.0 255.255.255.0 192.168.1.209
+ip route vrf izbirkom 10.16.48.0 255.255.255.0 10.16.254.61
+ip route vrf mvd 10.145.21.96 255.255.255.240 10.151.250.150
+ip route vrf mvd 10.145.76.0 255.255.255.0 10.151.250.150
+ip route vrf mvd 10.146.16.128 255.255.255.240 10.151.250.150
+ip route vrf mvd 10.147.165.0 255.255.255.0 10.151.250.150
+ip route vrf mvd 10.151.152.152 255.255.255.252 10.151.250.150
+ip route vrf mvd 10.151.251.148 255.255.255.252 10.151.250.150
+ip route vrf mvd 10.151.253.144 255.255.255.252 10.151.250.150
+ip route vrf mvd 172.16.146.32 255.255.255.248 10.151.250.150
+ip route vrf TATTRANSGAZ 10.42.224.64 255.255.255.224 10.42.252.9
+ip route vrf MCHS_GU 10.110.49.192 255.255.255.224 10.110.62.122
+ip route vrf MCHS_GU 192.168.158.224 255.255.255.224 10.110.62.122
+!
+ip access-list standard AUTORP_NETWORKS
+ permit 224.0.1.39
+ permit 224.0.1.40
+ permit 234.10.10.10
+ permit 234.11.11.11
+ permit 224.1.1.0 0.0.0.255
+ permit 239.255.0.0 0.0.127.255
+ip access-list standard SNMP_MON
+ permit 172.16.31.0 0.0.0.255
+ permit 10.100.0.0 0.0.255.255
+ permit 10.16.252.32 0.0.0.15
+ permit 10.1.1.224 0.0.0.31
+ deny   any
+ip access-list standard VTY_ACCESS
+ permit 172.16.29.0 0.0.0.255
+ permit 172.16.30.0 0.0.0.255
+ permit 172.16.31.0 0.0.0.255
+ permit 172.16.32.0 0.0.0.255
+ permit 172.16.42.0 0.0.0.255
+ permit 172.16.65.0 0.0.0.255
+ permit 10.0.0.0 0.127.255.255
+ permit 217.23.176.208 0.0.0.15
+ deny   any
+ip access-list standard snmp
+ permit 172.16.30.0 0.0.0.255
+!
+ip access-list extended DSLAM_MGMT
+ permit ip any 10.16.252.32 0.0.0.15
+ permit ip any 10.16.252.64 0.0.0.15
+ permit ip any 10.1.1.224 0.0.0.31
+ permit ip any 172.16.29.0 0.0.0.255
+ permit ip any 10.100.0.0 0.0.255.255
+ permit ip any 172.16.31.0 0.0.0.255
+ permit ip any 172.16.73.0 0.0.0.255
+ permit ip any 172.16.30.0 0.0.0.7
+ permit ip any 172.16.42.0 0.0.0.255
+ permit ip any 10.16.253.0 0.0.0.255
+ permit ip any 10.3.0.0 0.0.255.255
+ permit ip any host 10.10.10.2
+ permit ip any host 10.1.1.1
+ deny   ip any any
+ip access-list extended GuestWIFI_ACL_IN
+ permit icmp any any
+ permit udp any eq bootpc any eq bootps
+ permit udp any any eq domain
+ deny   ip any 10.144.0.0 0.7.255.255
+ permit ip any any
+ip access-list extended IPTV_test
+ permit icmp any 10.20.0.0 0.0.15.255
+ permit udp any eq bootpc any eq bootps
+ permit ip any 10.20.0.0 0.0.15.255
+ip access-list extended IPTV_test_OUT
+ permit icmp 10.20.0.0 0.0.15.255 any
+ permit udp any eq bootps any eq bootpc
+ permit ip 10.20.0.0 0.0.15.255 any
+ip access-list extended KSPD
+ permit ip any 217.23.176.0 0.0.0.255
+ permit ip any 84.18.124.176 0.0.0.7
+ permit ip any host 89.232.109.43
+ permit ip any 89.232.112.0 0.0.0.255
+ permit ip any 89.232.121.0 0.0.0.255
+ permit ip any 89.232.119.64 0.0.0.3
+ permit ip any 89.232.123.136 0.0.0.3
+ permit ip any 89.232.125.0 0.0.0.255
+ permit ip any 84.18.110.0 0.0.0.7
+ permit ip any 192.168.0.0 0.0.255.255
+ permit ip any 172.16.0.0 0.15.255.255
+ permit ip any 10.16.253.0 0.0.0.255
+ permit ip any host 217.23.183.202
+ permit ip any host 78.138.180.18
+ permit ip any host 78.138.158.33
+ permit ip any 217.118.187.0 0.0.0.255
+ permit ip any 217.118.179.0 0.0.0.255
+ permit ip any 78.138.177.0 0.0.0.15
+ permit ip any host 89.232.109.74
+ permit ip any host 217.23.177.249
+ permit ip any 217.118.191.0 0.0.0.255
+ deny   ip any any
+ip access-list extended NORTEL_SIP_TULASHI
+ permit ip any 89.232.125.0 0.0.0.63
+ permit ip any 89.232.125.140 0.0.0.3
+ permit ip any 89.232.125.144 0.0.0.15
+ permit ip any 89.232.125.160 0.0.0.15
+ permit ip any 89.232.125.192 0.0.0.31
+ permit ip any 172.22.0.96 0.0.0.15
+ permit ip any 172.26.0.0 0.0.0.255
+ permit udp any host 224.0.0.2
+ permit icmp any any
+ deny   ip any any
+ip access-list extended TR69_ACL
+ permit icmp any any
+ permit udp any eq bootpc any eq bootps
+ permit udp any any eq domain
+ permit ip any 89.232.109.248 0.0.0.7
+ permit ip any 89.232.112.0 0.0.0.15
+ip access-list extended city-in
+ permit ip 10.22.234.0 0.0.0.255 10.22.234.0 0.0.0.255
+ deny   ip any any
+ip access-list extended kspd-in
+ permit ip 172.18.0.0 0.0.255.255 172.16.0.0 0.15.255.255
+ permit ip 172.22.0.0 0.0.255.255 172.16.0.0 0.15.255.255
+ip access-list extended leased-in
+ deny   ip 192.168.0.0 0.0.255.255 any
+ deny   ip 172.16.0.0 0.0.15.255 any
+ deny   ip any 192.168.0.0 0.0.255.255
+ permit ip 217.118.176.0 0.0.15.255 172.24.0.0 0.3.255.255
+ permit ip 217.23.176.0 0.0.15.255 172.24.0.0 0.3.255.255
+ permit ip 84.18.96.0 0.0.31.255 172.24.0.0 0.3.255.255
+ permit ip 89.232.64.0 0.0.63.255 172.24.0.0 0.3.255.255
+ permit ip 217.118.176.0 0.0.15.255 172.28.0.0 0.1.255.255
+ permit ip 217.23.176.0 0.0.15.255 172.28.0.0 0.1.255.255
+ permit ip 84.18.96.0 0.0.31.255 172.28.0.0 0.1.255.255
+ permit ip 89.232.64.0 0.0.63.255 172.28.0.0 0.1.255.255
+ deny   ip any 172.16.0.0 0.15.255.255
+ permit ip any any
+ip access-list extended mfrt-in
+ permit ip 172.22.0.0 0.0.255.255 172.22.0.0 0.0.255.255
+ deny   ip any any log
+!
+ip prefix-list FTTH_STB_NET permit 10.200.0.0/13 le 27
+ip prefix-list FTTH_STB_NET permit 10.216.0.0/13 le 27
+ip prefix-list FTTH_STB_NET permit 10.236.0.0/14 le 27
+ip prefix-list FTTH_STB_NET permit 10.244.0.0/14 le 27
+ip sla responder
+logging trap notifications
+logging origin-id hostname
+logging host 172.16.31.31 vrf MGMT
+logging host 10.16.252.77 vrf MGMT
+logging host 10.16.251.9 vrf MGMT
+access-list 11 permit 10.1.1.224 0.0.0.31
+access-list 11 permit 10.16.252.23
+access-list 11 permit 10.16.252.32 0.0.0.15
+access-list 11 permit 172.16.29.4
+access-list 11 permit 172.16.31.0 0.0.0.255
+access-list 11 deny   any
+access-list 33 permit 10.3.2.0 0.0.0.255
+access-list 33 permit 10.3.202.0 0.0.0.255
+access-list 33 permit 10.16.253.0 0.0.0.255
+access-list 33 permit 172.16.31.0 0.0.0.255
+access-list 33 permit 172.16.32.0 0.0.0.255
+access-list 33 permit 172.16.42.0 0.0.0.255
+access-list 33 permit 172.16.73.0 0.0.0.255
+access-list 33 deny   any
+!
+route-map FTTH_STB_TO_IPTV permit 10
+ match ip address prefix-list FTTH_STB_NET
+ set extcommunity rt  65000:90 additive
+!
+mpls ldp router-id Loopback30
+snmp-server group IRBIS-GROUP v3 priv write IRBIS-VIEW access 11
+snmp-server view IRBIS-VIEW system included
+snmp-server view IRBIS-VIEW interfaces included
+snmp-server community ttmon4vz4zd322 RO SNMP_MON
+snmp-server trap-source Loopback2
+snmp-server enable traps snmp linkdown linkup coldstart warmstart
+snmp-server enable traps chassis
+snmp-server enable traps transceiver all
+snmp-server enable traps ospf state-change
+snmp-server enable traps bgp state-changes limited
+snmp-server enable traps bgp threshold prefix
+snmp-server enable traps memory bufferpeak
+snmp-server enable traps cef resource-failure peer-state-change peer-fib-state-change inconsistency
+snmp-server enable traps cpu threshold
+snmp-server enable traps c6kxbar intbus-crcexcd intbus-crcrcvrd
+snmp-server enable traps envmon fan shutdown supply temperature
+snmp-server host 10.16.251.9 vrf MGMT step_security 
+snmp-server host 172.16.31.31 vrf MGMT ttmon4vz4zd322 
+snmp-server host 172.16.31.41 vrf MGMT ttmon4vz4zd322 
+!
+tftp-server sup-bootdisk:/sys.bin
+tftp-server sup-bootdisk:sys.bin
+!
+control-plane
+!
+banner exec ^C
+Access granted. Please, be careful and keep in mind the role and status of this device in network infrastructure. If you have any question, need help, assistance or advice, please contact the on duty administrator of Tattelecom NOC or technical support.
+
+Tattelecom Network Operation Center (24Hrs)
+Tel: 8 10 (843) 295-42-66
+E-mail: noc@tattelecom.ru
+
+Step Logic Technical Support Service (24Hrs) Service Contract No:
+Tel: 8 10 (495) 775-31-20
+E-mail: support@step.ru
+^C
+banner login ^C
+Welcome to $(hostname) mpls router.
+This network device is the private property of Open JSC "Tattelecom".
+Any unauthorized access is strictly prohibited.
+In order to be identified as an authorized user, you must enter your authentication data below.
+If you are an unauthorized user, logout immediately!
+
+Please enter your Password below (case sensitive):
+^C
+!
+line con 0
+ privilege level 15
+line vty 0 4
+ access-class VTY_ACCESS in vrf-also
+ exec-timeout 30 0
+ timeout login response 300
+ logging synchronous
+ transport input telnet ssh
+line vty 5 15
+ access-class VTY_ACCESS in vrf-also
+ exec-timeout 30 0
+ timeout login response 300
+ logging synchronous
+!
+ntp source Loopback2
+ntp server vrf MGMT 10.1.1.1
+ntp server 10.1.1.1
+mac-address-table notification mac-move
+!
+end

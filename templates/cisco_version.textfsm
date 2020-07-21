@@ -1,0 +1,14 @@
+Value Hostname (\S+)
+Value Version ([^ ,]+)
+Value Model (.*)
+Value Reload_reason (.*)
+Value Confreg (\w+)
+Value Uptime (.*)
+
+Start
+  ^Cisco IOS.*Version ${Version},
+  ^${Hostname} uptime is
+  ^${Model} \(.*\) processor \(.*\) with \S+ bytes of memory
+  ^Last reload (reason|type): ${Reload_reason}
+  ^Configuration register is ${Confreg}
+  ^Uptime for this control processor is ${Uptime}

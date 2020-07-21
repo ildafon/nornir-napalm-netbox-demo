@@ -1,0 +1,8 @@
+Value Filldown Name (\S+)
+Value Filldown RD (\d+:\d+)
+Value Filldown Proto (\w+)
+Value Required Interface (\S+\d+)
+
+Start
+  ^\s+${Name}\s+${RD}\s+${Proto}\s+${Interface} -> Record
+  ^\s+${Interface} -> Record
