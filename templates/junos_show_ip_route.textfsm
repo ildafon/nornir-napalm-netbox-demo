@@ -1,0 +1,15 @@
+Value Required Prefix (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\/\d{1,2})
+Value List Protocol (\w+)
+Value List Gateway (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
+Value List Interface (\S+)
+
+Start
+  ^${Prefix}\s+.?\[${Protocol}\/\d+\].* -> Gateway
+
+Gateway
+  ^\s+.?\s+to\s+${Gateway}\s+via\s+${Interface}
+  ^\s+\S+\s+via\s+${Interface}
+  ^\s+.?\[${Protocol}\/\d+\].* -> Gateway
+  ^\S+.* -> Continue.Record
+  ^${Prefix}.* -> Start
+

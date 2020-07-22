@@ -62,9 +62,9 @@ def save_csv_table(template, parsed_result_dict, command):
                 f.write("\n")
 
 if __name__ == "__main__":
-    command = 'show vrf'
-    role = 'pe'
-    tmpl_name = 'cisco_show_vrf.textfsm'
+    command = 'show route table WUS.inet.0'
+    role = 'PE'
+    tmpl_name = 'junos_show_ip_route.textfsm'
 
     try:
         template = open(tmpl_path + tmpl_name, "r")
@@ -72,7 +72,8 @@ if __name__ == "__main__":
         logging.error("Error! Template not found!: %s" % tmpl_path + tmpl_name)
         exit(1)
 
-    devices = nr.filter(role=role)
+    devices = nr.filter(role=role, site="mtts")
+    logging.info(devices.inventory.get_inventory_dict())
 
     cmd_output_dict = get_command_result_dict(command, devices)
     parsed_result_dict = parse_cmd_result_dict(cmd_output_dict, template, command)
