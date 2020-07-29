@@ -1,0 +1,6 @@
+Value RANCID_HOSTNAME (\S+)
+Value RANCID_TYPE (\S+)
+Value RANCID_STATUS (\S+)
+
+Start
+  ^${RANCID_HOSTNAME}\:${RANCID_TYPE}\:${RANCID_STATUS} -> Record

@@ -37,6 +37,12 @@ def get_device_id(device_name, netbox):
     return device_id
 
 
+
+def get_hostname(ip_address):
+    return None
+
+def get_ip(hostname):
+    return None
 # CLI
 
 if __name__ == "__main__":

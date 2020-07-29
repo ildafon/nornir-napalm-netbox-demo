@@ -1,0 +1,10 @@
+vrf {{name}}
+ address-family ipv4 unicast
+  import route-target
+   {{default_rd}}
+  !
+  export route-target
+   {{default_rd}}
+  !
+ !
+!
